@@ -1,11 +1,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports = [
-    ../hosts/hardware-configuration/Pomu.nix
-    ../hosts/specialization/Pomu.nix
-  ];
-
   networking = {
     hostName = "pomu";
     nameservers = [

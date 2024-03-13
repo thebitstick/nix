@@ -1,10 +1,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports = [
-    ../hosts/specialization/Jorges-Laptop-Pro.nix
-  ];
-
   networking = {
     hostName = "Jorges-Laptop-Pro";
     dns = [

@@ -1,11 +1,6 @@
 { config, lib, pkgs, ... }:
 
 {
-  imports = [
-    ../hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
-    ../hosts/specialization/Jorges-Laptop-Ultra.nix
-  ];
-
   networking = {
     hostName = "Jorges-Laptop-Ultra";
     nameservers = [
