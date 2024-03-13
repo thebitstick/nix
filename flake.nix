@@ -20,7 +20,7 @@
       "Jorges-Laptop-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
-          ./configuration/Jorges-Laptop-Pro.nix
+          ./configuration.nix
           ./hosts/specialization/Jorges-Laptop-Pro.nix
           home-manager.darwinModules.home-manager
           {
@@ -35,7 +35,7 @@
       "Jorges-Laptop-Ultra" = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
         modules = [
-          ./configuration/Jorges-Laptop-Ultra.nix
+          ./configuration.nix
           ./hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
           ./hosts/specialization/Jorges-Laptop-Ultra.nix
           home-manager.nixosModules.home-manager
@@ -49,7 +49,7 @@
       "pomu" = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
         modules = [
-          ./configuration/Pomu.nix
+          ./configuration.nix
           ./hosts/hardware-configuration/Pomu.nix
           ./hosts/specialization/Pomu.nix
     	  home-manager.nixosModules.home-manager

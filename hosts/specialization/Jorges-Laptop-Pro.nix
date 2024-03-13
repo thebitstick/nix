@@ -2,12 +2,25 @@
 
 {
   networking = {
+    hostName = "Jorges-Laptop-Pro";
     computerName = "Jorge’s Laptop Pro";
     localHostName = "Jorges-Laptop-Pro";
     knownNetworkServices = [
       "Wi-Fi"
       "USB 10/100/1000 LAN"
     ];
+    dns = [
+      # Cloudflare DNS
+      "1.1.1.1"
+      "1.0.0.1"
+      "2606:4700:4700::1111"
+      "2606:4700:4700::1001"
+    ];
+  };
+
+  users.users.thebitstick = {
+    home = "/Users/thebitstick";
+    shell = pkgs.nushell;
   };
 
   environment = {
@@ -182,4 +195,13 @@
       };
     };
   };
+
+  nixpkgs.hostPlatform = "aarch64-darwin";
+  services.nix-daemon.enable = true;
+  nix = {
+    gc.interval.Day = 7;
+    package = pkgs.nix;
+  };
+
+  system.stateVersion = 4;
 }

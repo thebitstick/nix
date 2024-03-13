@@ -4,6 +4,32 @@
   boot.loader.grub.enable = false;
   boot.loader.generic-extlinux-compatible.enable = true;
 
+  networking = {
+    hostName = "pomu";
+    firewall = {
+      enable = true;
+      allowedTCPPorts = [
+        22
+        80
+        443
+      ];
+    };
+    nameservers = [
+      # Cloudflare DNS
+      "1.1.1.1"
+      "1.0.0.1"
+      "2606:4700:4700::1111"
+      "2606:4700:4700::1001"
+    ];
+  };
+
+  users.users.admin = {
+      isNormalUser = true;
+      extraGroups = [ "wheel" ];
+      description = "Administrator";
+      shell = pkgs.nushell;
+    };
+
   time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.UTF-8";
 
@@ -12,16 +38,9 @@
       git
       mcrcon
     ];
-  };
 
-  networking = {
-    firewall = {
-      enable = true;
-      allowedTCPPorts = [
-        22
-        80
-        443
-      ];
+    variables = {
+      EDITOR = "nvim";
     };
   };
 
@@ -39,7 +58,7 @@
           root = "/var/www/bitstick.rip";
         };
         "huicochea.moe" = {
-          forceSSL = true;      
+          forceSSL = true;
           enableACME = true;
           root = "/var/www/huicochea.moe";
         };
@@ -84,4 +103,7 @@
   };
 
   users.users.nginx.extraGroups = [ "acme" ];
+
+  nix.gc.dates = "weekly";
+  system.stateVersion = "23.05";
 }
