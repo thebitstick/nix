@@ -2,12 +2,13 @@
 
 {
   imports = [
-    ../hosts/mac.nix
+    ../hosts/hardware-configuration/Pomu.nix
+    ../hosts/specialization/Pomu.nix
   ];
 
   networking = {
-    hostName = "Jorges-Laptop-Pro";
-    dns = [
+    hostName = "pomu";
+    nameservers = [
       # Cloudflare DNS
       "1.1.1.1"
       "1.0.0.1"
@@ -16,8 +17,10 @@
     ];
   };
 
-  users.users.thebitstick = {
-    home = "/Users/thebitstick";
+  users.users.admin = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" ];
+    description = "Administrator";
     shell = pkgs.nushell;
   };
 
@@ -37,21 +40,22 @@
       eza
       fd
     ];
+
+    variables = {
+      EDITOR = "nvim";
+    };
   };
 
   nixpkgs = {
     config.allowUnfree = true;
-    hostPlatform = "aarch64-darwin";
   };
-  services.nix-daemon.enable = true;
   nix = {
     gc = {
       automatic = true;
-      interval.Day = 7;
+      dates = "weekly";
       options = "--delete-older-than 7d";
     };
     settings.experimental-features = [ "nix-command" "flakes" ];
-    package = pkgs.nix;
   };
-  system.stateVersion = 4;
+  system.stateVersion = "23.05";
 }

@@ -20,12 +20,12 @@
       "Jorges-Laptop-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
         modules = [
-          ./configuration/mac-configuration.nix
+          ./configuration/Jorges-Laptop-Pro.nix
           home-manager.darwinModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.thebitstick = import ./home/mac-home.nix;
+            home-manager.users.thebitstick = import ./home/Jorges-Laptop-Pro.nix;
           }
         ];
       };
@@ -34,24 +34,24 @@
       "Jorges-Laptop-Ultra" = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
         modules = [
-          ./configuration/ultra-configuration.nix
+          ./configuration/Jorges-Laptop-Ultra.nix
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.thebitstick = import ./home/ultra-home.nix;
+            home-manager.users.thebitstick = import ./home/Jorges-Laptop-Ultra.nix;
           }
         ];
       };
       "pomu" = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
         modules = [
-          ./configuration/pomu-configuration.nix
+          ./configuration/Pomu.nix
     	  home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.admin = import ./home/pomu-home.nix;
+            home-manager.users.admin = import ./home/Pomu.nix;
           }
         ];
       };

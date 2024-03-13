@@ -2,8 +2,8 @@
 
 {
   imports = [
-    ../hosts/hardware-configuration/ultra.nix
-    ../hosts/ultra-linux.nix
+    ../hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
+    ../hosts/specialization/Jorges-Laptop-Ultra.nix
   ];
 
   networking = {
