@@ -33,6 +33,7 @@
     enable = true;
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
+    caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
       "altserver"
@@ -49,7 +50,6 @@
       "reminders-menubar"
       "rewind"
       "swiftbar"
-      "tailscale"
 
       # macOS Background Apps
       "apparency"
@@ -69,8 +69,8 @@
       "grandperspective"
       "iina"
       "iterm2"
+      "keepassxc"
       "keyboardcleantool"
-      "macpass"
       "microsoft-excel"
       "microsoft-outlook"
       "microsoft-powerpoint"
@@ -115,6 +115,7 @@
 
       # Background Apps
       "OneDrive" = 823766827;
+      "Tailscale" = 1475387142;
       "WaterMinder" = 1415257369;
 
       # Safari Extensions
