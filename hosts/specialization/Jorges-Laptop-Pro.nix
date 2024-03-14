@@ -141,10 +141,12 @@
       NSGlobalDomain = {
         AppleICUForce24HourTime = true;
         AppleInterfaceStyle = "Dark";
-        ApplePressAndHoldEnabled = false;
+        ApplePressAndHoldEnabled = true;
         AppleShowAllExtensions = true;
         AppleShowScrollBars = "Automatic";
-        AppleTemperatureUnit = "Fahrenheit"; # I'm so sorry
+        AppleMeasurementUnits = "Centimeters";
+        AppleMetricUnits = 1;
+        AppleTemperatureUnit = "Celsius";
         AppleWindowTabbingMode = "always";
         InitialKeyRepeat = 25;
         KeyRepeat = 5;
@@ -159,7 +161,7 @@
         autohide-delay = 0.0;
         expose-group-by-app = true;
         mineffect = "genie";
-        minimize-to-application = true;
+        minimize-to-application = false;
         mru-spaces = false;
         orientation = "bottom";
         show-recents = true;
