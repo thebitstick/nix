@@ -56,8 +56,8 @@
       "keka"
       "microsoft-auto-update"
       "mountain-duck"
-      "qlmarkdown"
-      "syntax-highlight"
+      "qlmarkdown" # not notarized
+      "syntax-highlight" # not notarized
 
       # macOS Graphical Apps
       "arc"
@@ -80,11 +80,11 @@
       "netnewswire"
       "obs"
       "obsidian"
-      "openscad"
+      "openscad" # not notarized
       "prismlauncher"
       "sensei"
       "sidequest"
-      "tetrio"
+      "tetrio" # not notarized
       "toontown-rewritten"
       "transmission"
       "ultimaker-cura"
@@ -162,7 +162,7 @@
         minimize-to-application = true;
         mru-spaces = false;
         orientation = "bottom";
-        show-recents = false;
+        show-recents = true;
         tilesize = 65;
       };
 
