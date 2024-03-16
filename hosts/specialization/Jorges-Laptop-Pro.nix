@@ -48,7 +48,6 @@
       "ollama"
       "raycast"
       "reminders-menubar"
-      "rewind"
       "swiftbar"
 
       # macOS Background Apps
@@ -63,12 +62,10 @@
       "arc"
       "arduino-ide"
       "audacity"
-      "clone-hero"
       "discord"
       "firefox"
       "grandperspective"
       "iina"
-      "iterm2"
       "keepassxc"
       "keyboardcleantool"
       "microsoft-excel"
@@ -174,7 +171,7 @@
         FXPreferredViewStyle = "clmv";
         FXDefaultSearchScope = "SCcf";
         FXEnableExtensionChangeWarning = false;
-        _FXShowPosixPathInTitle = true;
+        _FXShowPosixPathInTitle = false;
         QuitMenuItem = true;
         ShowPathbar = true;
         ShowStatusBar = true;
