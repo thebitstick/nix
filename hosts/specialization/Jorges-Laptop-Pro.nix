@@ -99,11 +99,9 @@
       "Apple Configurator" = 1037126344;
 
       # Third-Party Apps
-      "Disk Speed Test" = 425264550;
       "PCalc" = 403504866;
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
-      "Speedtest" = 1153157709;
       "Mini Metro" = 1047760200;
       "Plash" = 1494023538;
       "VIGIL Client Lite" = 1387350823;
@@ -113,7 +111,6 @@
       # Background Apps
       "OneDrive" = 823766827;
       "Tailscale" = 1475387142;
-      "WaterMinder" = 1415257369;
 
       # Safari Extensions
       "StreetPass for Mastodon" = 6446224821;

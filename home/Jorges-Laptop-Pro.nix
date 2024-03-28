@@ -46,6 +46,8 @@
         prepend '/Users/thebitstick/.local/bin' |
         prepend '/Users/thebitstick/Library/Python/3.9/bin' |
         prepend '/Users/thebitstick/.local/state/home-manager/gcroots/current-home/home-path/bin' |
+        append '/usr/sbin' |
+        append '/sbin' |
         append '/Library/Apple/usr/bin'
       )
 
@@ -66,6 +68,7 @@
       '';
       shellAliases = {
         open = "^open";
+        mkdir = "^mkdir";
         cat = "bat --plain --paging=never";
         editv = "zed";
         sedit = "sudo nvim";
