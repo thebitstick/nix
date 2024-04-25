@@ -112,18 +112,6 @@
       # Background Apps
       "OneDrive" = 823766827;
       "Tailscale" = 1475387142;
-
-      # Safari Extensions
-      "StreetPass for Mastodon" = 6446224821;
-      "SponsorBlock" = 1573461917;
-      "10ten Japanese Reader" = 1573540634;
-      "Consent-O-Matic" = 1606897889;
-      "Mapper" = 1589391989;
-      "Tampermonkey" = 1482490089;
-      "Dark Reader for Safari" = 1438243180;
-      "Bitwarden" = 1352778147;
-      "AdGuard for Safari" = 1440147259;
-      "Baking Soda" = 1601151613;
     };
   };
 
