@@ -77,6 +77,7 @@
       "netnewswire"
       "obs"
       "obsidian"
+      "orion"
       "openscad" # not notarized
       "prismlauncher"
       "sensei"
