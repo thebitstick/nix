@@ -63,6 +63,7 @@
       "arduino-ide"
       "audacity"
       "discord"
+      "element"
       "firefox"
       "grandperspective"
       "iina"
