@@ -128,9 +128,9 @@
         ApplePressAndHoldEnabled = true;
         AppleShowAllExtensions = true;
         AppleShowScrollBars = "Automatic";
-        AppleMeasurementUnits = "Centimeters";
-        AppleMetricUnits = 1;
-        AppleTemperatureUnit = "Celsius";
+	AppleMeasurementUnits = "Inches";
+        AppleMetricUnits = 0;
+        AppleTemperatureUnit = "Fahrenheit";
         AppleWindowTabbingMode = "always";
         InitialKeyRepeat = 25;
         KeyRepeat = 5;
