@@ -38,7 +38,6 @@
       # macOS Background Apps (always-on)
       "altserver"
       "alt-tab"
-      "bartender"
       "choosy"
       "cleanshot"
       "deepl"
@@ -94,10 +93,9 @@
     masApps = {
       # Apple Apps
       "Keynote" = 409183694;
-      "GarageBand" = 682658836;
-      "Xcode" = 497799835;
       "Pages" = 409201541;
       "Numbers" = 409203825;
+      "Xcode" = 497799835;
       "Apple Configurator" = 1037126344;
 
       # Third-Party Apps
@@ -111,6 +109,7 @@
       "Steam Link" = 1246969117;
 
       # Background Apps
+      "Hidden Bar" = 1452453066;
       "OneDrive" = 823766827;
       "Tailscale" = 1475387142;
     };
