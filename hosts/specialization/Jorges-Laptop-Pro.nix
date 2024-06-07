@@ -40,7 +40,6 @@
       "alt-tab"
       "choosy"
       "cleanshot"
-      "deepl"
       # "immersed" # not on Homebrew yet
       "itsycal"
       "linearmouse"
