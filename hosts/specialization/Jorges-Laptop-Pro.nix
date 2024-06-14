@@ -37,7 +37,6 @@
     casks = [
       # macOS Background Apps (always-on)
       "altserver"
-      "alt-tab"
       "choosy"
       "cleanshot"
       # "immersed" # not on Homebrew yet
@@ -51,7 +50,6 @@
       # macOS Background Apps
       "apparency"
       "keka"
-      "microsoft-auto-update"
       "mountain-duck"
       "qlmarkdown" # not notarized
       "syntax-highlight" # not notarized
@@ -65,6 +63,7 @@
       "firefox"
       "grandperspective"
       "iina"
+      "inkscape"
       "keepassxc"
       "keyboardcleantool"
       "microsoft-excel"
@@ -72,10 +71,8 @@
       "microsoft-powerpoint"
       "microsoft-remote-desktop"
       "microsoft-word"
-      "mochi-diffusion"
       "netnewswire"
       "obs"
-      "obsidian"
       "orion"
       "openscad" # not notarized
       "prismlauncher"
@@ -86,6 +83,7 @@
       "transmission"
       "ultimaker-cura"
       "utm"
+      "whisky"
       "zed"
     ];
 
@@ -98,17 +96,14 @@
       "Apple Configurator" = 1037126344;
 
       # Third-Party Apps
-      "PCalc" = 403504866;
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
       "Mini Metro" = 1047760200;
-      "Plash" = 1494023538;
       "VIGIL Client Lite" = 1387350823;
       "MusicBox" = 1614730313;
       "Steam Link" = 1246969117;
 
       # Background Apps
-      "Hidden Bar" = 1452453066;
       "OneDrive" = 823766827;
       "Tailscale" = 1475387142;
     };
