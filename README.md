@@ -8,7 +8,7 @@ This repository contains configurations for:
 
 ## Jorges-Laptop-Pro (Nix-Darwin aarch64 standard)
 
-Grab the [Determinate System's Nix Graphical installer](https://determinate.systems/posts/graphical-nix-installer/) and follow Nix Academy's [guide for macOS](https://nixcademy.com/2024/01/15/nix-on-macos/).
+Grab the [official Nix installer](https://nixos.org/download/) and follow Nix Academy's [guide for macOS](https://nixcademy.com/2024/01/15/nix-on-macos/). Be sure to install [nix-darwin](https://github.com/LnL7/nix-darwin) and setup flakes.
 
 Once you're acquainted with Nix-Darwin and Flakes, you're free to use this project as reference for configuring your Mac.
 
