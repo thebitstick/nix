@@ -44,7 +44,6 @@
       "linearmouse"
       "ollama"
       "raycast"
-      "reminders-menubar"
       "swiftbar"
 
       # macOS Background Apps
