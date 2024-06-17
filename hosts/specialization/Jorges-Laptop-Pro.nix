@@ -91,7 +91,7 @@
       "Keynote" = 409183694;
       "Pages" = 409201541;
       "Numbers" = 409203825;
-      "Xcode" = 497799835;
+      #"Xcode" = 497799835;
       "Apple Configurator" = 1037126344;
 
       # Third-Party Apps
