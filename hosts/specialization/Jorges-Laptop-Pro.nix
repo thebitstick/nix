@@ -70,6 +70,7 @@
       "microsoft-powerpoint"
       "microsoft-remote-desktop"
       "microsoft-word"
+      "moonlight"
       "netnewswire"
       "obs"
       "orion"
