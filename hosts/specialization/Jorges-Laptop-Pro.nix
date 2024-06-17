@@ -54,11 +54,10 @@
       "syntax-highlight" # not notarized
 
       # macOS Graphical Apps
-      "arc"
-      "arduino-ide"
       "audacity"
       "discord"
       "element"
+      "eloston-chromium" # not notarized
       "firefox"
       "grandperspective"
       "iina"
@@ -75,12 +74,10 @@
       "orion"
       "openscad" # not notarized
       "prismlauncher"
-      "sidequest"
       "tetrio" # not notarized
       "toontown-rewritten"
       "transmission"
       "ultimaker-cura"
-      "utm"
       "whisky"
       "zed"
     ];
@@ -96,10 +93,19 @@
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
-      "Mini Metro" = 1047760200;
       "VIGIL Client Lite" = 1387350823;
-      "MusicBox" = 1614730313;
       "Steam Link" = 1246969117;
+
+      # Games
+      "Resident Evil 4" = 6462360082;
+      "Resident Evil Village" = 1640627334;
+
+      # Safari Extensions
+      "SponsorBlock" = 1573461917;
+      "10ten Japanese Reader" = 1573540634;
+      "Dark Reader for Safari" = 1438243180;
+      "Bitwarden" = 1352778147;
+      "AdGuard for Safari" = 1440147259;
 
       # Background Apps
       "OneDrive" = 823766827;
