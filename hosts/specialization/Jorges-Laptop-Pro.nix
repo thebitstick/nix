@@ -47,16 +47,11 @@
       "swiftbar"
 
       # macOS Background Apps
-      "apparency"
       "keka"
       "mountain-duck"
-      "qlmarkdown" # not notarized
-      "syntax-highlight" # not notarized
 
       # macOS Graphical Apps
-      "audacity"
       "discord"
-      "element"
       "eloston-chromium" # not notarized
       "firefox"
       "grandperspective"
@@ -75,7 +70,6 @@
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
       "tetrio" # not notarized
-      "toontown-rewritten"
       "transmission"
       "ultimaker-cura"
       "whisky"
