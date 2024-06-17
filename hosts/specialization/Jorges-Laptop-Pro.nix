@@ -73,6 +73,7 @@
       "obs"
       "openscad" # not notarized
       "prismlauncher"
+      "zulu@21" # OpenJDK for prismlauncher
       "tetrio" # not notarized
       "toontown-rewritten"
       "transmission"
