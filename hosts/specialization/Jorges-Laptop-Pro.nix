@@ -71,7 +71,6 @@
       "microsoft-word"
       "netnewswire"
       "obs"
-      "orion"
       "openscad" # not notarized
       "prismlauncher"
       "tetrio" # not notarized
