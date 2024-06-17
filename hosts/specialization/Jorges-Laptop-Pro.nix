@@ -116,7 +116,6 @@
     defaults = {
       NSGlobalDomain = {
         AppleICUForce24HourTime = true;
-        AppleInterfaceStyle = "Dark";
         ApplePressAndHoldEnabled = true;
         AppleShowAllExtensions = true;
         AppleShowScrollBars = "Automatic";
@@ -133,15 +132,15 @@
       ".GlobalPreferences"."com.apple.mouse.scaling" = 0.875;
 
       dock = {
-        autohide = true;
+        autohide = false;
         autohide-delay = 0.0;
         expose-group-by-app = true;
         mineffect = "genie";
         minimize-to-application = false;
         mru-spaces = false;
         orientation = "bottom";
-        show-recents = true;
-        tilesize = 65;
+        show-recents = false;
+        tilesize = 45;
       };
 
       finder = {
