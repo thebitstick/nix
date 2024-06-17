@@ -74,7 +74,6 @@
       "obs"
       "orion"
       "openscad" # not notarized
-      "parsec"
       "prismlauncher"
       "sensei"
       "sidequest"
