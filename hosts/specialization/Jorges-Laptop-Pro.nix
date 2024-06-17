@@ -75,7 +75,6 @@
       "orion"
       "openscad" # not notarized
       "prismlauncher"
-      "sensei"
       "sidequest"
       "tetrio" # not notarized
       "toontown-rewritten"
