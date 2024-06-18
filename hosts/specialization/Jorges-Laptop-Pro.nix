@@ -36,7 +36,6 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
-      "altserver"
       "choosy"
       "cleanshot"
       # "immersed" # not on Homebrew yet
@@ -55,6 +54,7 @@
       "eloston-chromium" # not notarized
       "firefox"
       "grandperspective"
+      "heroic"
       "iina"
       "inkscape"
       "keepassxc"
