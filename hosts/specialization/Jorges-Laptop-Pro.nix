@@ -60,8 +60,6 @@
       "keepassxc"
       "keyboardcleantool"
       "microsoft-excel"
-      "microsoft-outlook"
-      "microsoft-powerpoint"
       "microsoft-remote-desktop"
       "microsoft-word"
       "netnewswire"
