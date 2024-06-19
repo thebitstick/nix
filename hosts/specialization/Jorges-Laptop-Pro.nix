@@ -42,6 +42,7 @@
       "itsycal"
       "linearmouse"
       "ollama"
+      "protonvpn"
       "raycast"
       "swiftbar"
 
