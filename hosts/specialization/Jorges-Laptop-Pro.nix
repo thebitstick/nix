@@ -55,7 +55,6 @@
       "eloston-chromium" # not notarized
       "firefox"
       "grandperspective"
-      "heroic"
       "iina"
       "inkscape"
       "keepassxc"
