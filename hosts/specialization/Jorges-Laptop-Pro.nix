@@ -36,19 +36,18 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
-      "choosy"
-      "cleanshot"
+      "cleanshot" #
       # "immersed" # not on Homebrew yet
-      "itsycal"
-      "linearmouse"
-      "ollama"
-      "protonvpn"
-      "raycast"
+      "itsycal" # no built-in multi-month calendar in macOS
+      "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
+      "ollama" # will be removed with Apple Intelligence
+      "protonvpn" # work wifi sucks
+      "raycast" # way better than spotlight sometimes
       "swiftbar"
 
       # macOS Background Apps
-      "keka"
-      "mountain-duck"
+      "keka" # archive utility doesn't support many formats
+      "mountain-duck" # built-in ftp is only read-only
 
       # macOS Graphical Apps
       "discord"
@@ -58,11 +57,11 @@
       "iina"
       "inkscape"
       "keepassxc"
-      "keyboardcleantool"
       "microsoft-excel"
       "microsoft-remote-desktop"
       "microsoft-word"
       "netnewswire"
+      "nvidia-geforce-now"
       "obs"
       "openscad" # not notarized
       "prismlauncher"
@@ -89,8 +88,8 @@
       "Steam Link" = 1246969117;
 
       # Games
-      "Resident Evil 4" = 6462360082;
-      "Resident Evil Village" = 1640627334;
+      #"Resident Evil 4" = 6462360082;
+      #"Resident Evil Village" = 1640627334;
 
       # Safari Extensions
       "SponsorBlock" = 1573461917;
