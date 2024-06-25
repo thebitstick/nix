@@ -69,6 +69,7 @@
       "transmission"
       "ultimaker-cura"
       "whisky"
+      "xcodes"
       "zed"
     ];
 

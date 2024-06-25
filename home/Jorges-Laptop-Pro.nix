@@ -9,7 +9,6 @@
     imagemagick
     nixpkgs-fmt
     scrcpy
-    xcodes
     yt-dlp
 
     # Programming Languages
