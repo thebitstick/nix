@@ -130,7 +130,7 @@
         mru-spaces = false;
         orientation = "bottom";
         show-recents = false;
-        tilesize = 45;
+        tilesize = 40;
       };
 
       finder = {
