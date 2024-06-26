@@ -50,7 +50,6 @@
 
       # macOS Graphical Apps
       "discord"
-      "eloston-chromium" # not notarized
       "firefox"
       "grandperspective"
       "iina"
@@ -61,11 +60,9 @@
       "microsoft-word"
       "netnewswire"
       "nvidia-geforce-now"
-      "obs"
       "openscad" # not notarized
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
-      "tetrio" # not notarized
       "transmission"
       "ultimaker-cura"
       "whisky"
@@ -83,7 +80,6 @@
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
-      "Canva" = 897446215;
       "VIGIL Client Lite" = 1387350823;
       "Steam Link" = 1246969117;
 
