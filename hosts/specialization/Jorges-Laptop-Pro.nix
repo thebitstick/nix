@@ -49,7 +49,6 @@
       "mountain-duck" # built-in ftp is only read-only
 
       # macOS Graphical Apps
-      "discord"
       "firefox"
       "grandperspective"
       "iina"
@@ -91,7 +90,6 @@
       "SponsorBlock" = 1573461917;
       "10ten Japanese Reader" = 1573540634;
       "Dark Reader for Safari" = 1438243180;
-      "Bitwarden" = 1352778147;
       "AdGuard for Safari" = 1440147259;
 
       # Background Apps
