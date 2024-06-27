@@ -36,6 +36,7 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
+      "command-x" # adds cmd+x for cut+paste
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
@@ -47,6 +48,7 @@
       # macOS Background Apps
       "keka" # archive utility doesn't support many formats
       "mountain-duck" # built-in ftp is only read-only
+      "tailscale"
 
       # macOS Graphical Apps
       "firefox"
@@ -64,6 +66,7 @@
       "zulu@21" # OpenJDK for prismlauncher
       "transmission"
       "ultimaker-cura"
+      "utm"
       "whisky"
       "xcodes"
       "zed"
@@ -94,7 +97,6 @@
 
       # Background Apps
       "OneDrive" = 823766827;
-      "Tailscale" = 1475387142;
     };
   };
 
