@@ -48,7 +48,6 @@
       # macOS Background Apps
       "keka" # archive utility doesn't support many formats
       "mountain-duck" # built-in ftp is only read-only
-      "tailscale"
 
       # macOS Graphical Apps
       "firefox"
@@ -97,6 +96,7 @@
 
       # Background Apps
       "OneDrive" = 823766827;
+      "Tailscale" = 1475387142;
     };
   };
 
