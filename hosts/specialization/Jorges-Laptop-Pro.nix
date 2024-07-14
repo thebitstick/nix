@@ -50,6 +50,9 @@
       "mountain-duck" # built-in ftp is only read-only
 
       # macOS Graphical Apps
+      "affinity-designer"
+      "affinity-photo"
+      "affinity-publisher"
       "firefox"
       "grandperspective"
       "iina"
@@ -61,8 +64,12 @@
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
+      "playcover-community@beta"
+      "playdate-mirror"
+      "playdate-simulator"
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
+      "retroactive"
       "transmission"
       "ultimaker-cura"
       "utm"
