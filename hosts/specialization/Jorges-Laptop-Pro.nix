@@ -36,37 +36,36 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
-      "command-x" # adds cmd+x for cut+paste
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
       "ollama" # will be removed with Apple Intelligence
-      "protonvpn" # work wifi sucks
+      "protonvpn" # work Wi-Fi sucks
       "raycast" # way better than spotlight sometimes
       "swiftbar"
 
       # macOS Background Apps
       "keka" # archive utility doesn't support many formats
-      "mountain-duck" # built-in ftp is only read-only
+      "mountain-duck" # Finder FTP is only read-only
 
-      # macOS Graphical Apps
+      # macOS Graphical Apps (commercial)
       "affinity-designer"
       "affinity-photo"
       "affinity-publisher"
+      "microsoft-excel"
+      "microsoft-remote-desktop"
+      "microsoft-word"
+
+      # macOS Graphical Apps
       "firefox"
       "grandperspective"
       "iina"
       "inkscape"
       "keepassxc"
-      "microsoft-excel"
-      "microsoft-remote-desktop"
-      "microsoft-word"
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
       "playcover-community@beta"
-      "playdate-mirror"
-      "playdate-simulator"
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
       "retroactive"
@@ -74,6 +73,11 @@
       "ultimaker-cura"
       "utm"
       "whisky"
+
+      # macOS Dev Apps
+      "arduino-ide"
+      "playdate-mirror"
+      "playdate-simulator"
       "xcodes"
       "zed"
     ];
@@ -131,7 +135,7 @@
       ".GlobalPreferences"."com.apple.mouse.scaling" = 0.875;
 
       dock = {
-        autohide = false;
+        autohide = true;
         autohide-delay = 0.0;
         expose-group-by-app = true;
         mineffect = "genie";
