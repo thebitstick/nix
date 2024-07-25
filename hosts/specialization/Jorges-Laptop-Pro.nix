@@ -55,6 +55,7 @@
       "microsoft-excel"
       "microsoft-remote-desktop"
       "microsoft-word"
+      "mp3tag"
 
       # macOS Graphical Apps
       "firefox"
@@ -92,6 +93,7 @@
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
+      "MusicBox" = 1614730313;
       "VIGIL Client Lite" = 1387350823;
       "Steam Link" = 1246969117;
 
