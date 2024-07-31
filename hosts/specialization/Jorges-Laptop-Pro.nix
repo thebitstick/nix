@@ -77,7 +77,6 @@
       "arduino-ide"
       "playdate-mirror"
       "playdate-simulator"
-      "xcodes"
       "zed"
     ];
 
