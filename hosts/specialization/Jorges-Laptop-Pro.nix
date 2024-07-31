@@ -39,7 +39,6 @@
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
-      "ollama" # will be removed with Apple Intelligence
       "protonvpn" # work Wi-Fi sucks
       "raycast" # way better than spotlight sometimes
       "swiftbar"
@@ -61,7 +60,6 @@
       "firefox"
       "grandperspective"
       "iina"
-      "inkscape"
       "keepassxc"
       "netnewswire"
       "nvidia-geforce-now"
@@ -95,11 +93,6 @@
       "DaVinci Resolve" = 571213070;
       "MusicBox" = 1614730313;
       "VIGIL Client Lite" = 1387350823;
-      "Steam Link" = 1246969117;
-
-      # Games
-      #"Resident Evil 4" = 6462360082;
-      #"Resident Evil Village" = 1640627334;
 
       # Safari Extensions
       "SponsorBlock" = 1573461917;
