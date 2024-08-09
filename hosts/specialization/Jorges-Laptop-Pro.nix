@@ -57,7 +57,7 @@
       "mp3tag"
 
       # macOS Graphical Apps
-      "firefox-nightly"
+      "firefox@nightly"
       "grandperspective"
       "iina"
       "keepassxc"
