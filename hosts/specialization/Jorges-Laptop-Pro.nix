@@ -39,8 +39,8 @@
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
+      "maccy" # should be built-in
       "protonvpn" # work Wi-Fi sucks
-      "raycast" # way better than spotlight sometimes
       "swiftbar"
 
       # macOS Background Apps
@@ -48,19 +48,16 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps (commercial)
-      "affinity-designer"
-      "affinity-photo"
-      "affinity-publisher"
       "microsoft-excel"
       "microsoft-remote-desktop"
       "microsoft-word"
-      "mp3tag"
 
       # macOS Graphical Apps
       "firefox@nightly"
       "grandperspective"
       "iina"
       "keepassxc"
+      "keyboardcleantool"
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
@@ -68,6 +65,7 @@
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
       "retroactive"
+      "sensei"
       "transmission"
       "ultimaker-cura"
       "utm"
