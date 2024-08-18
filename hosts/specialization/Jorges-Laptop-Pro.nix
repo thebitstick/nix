@@ -47,12 +47,8 @@
       "keka" # archive utility doesn't support many formats
       "mountain-duck" # Finder FTP is only read-only
 
-      # macOS Graphical Apps (commercial)
-      "microsoft-excel"
-      "microsoft-remote-desktop"
-      "microsoft-word"
-
       # macOS Graphical Apps
+      "discord"
       "firefox@nightly"
       "grandperspective"
       "iina"
@@ -66,6 +62,7 @@
       "zulu@21" # OpenJDK for prismlauncher
       "retroactive"
       "sensei"
+      "steam"
       "transmission"
       "ultimaker-cura"
       "utm"
@@ -86,9 +83,19 @@
       #"Xcode" = 497799835;
       "Apple Configurator" = 1037126344;
 
+      # Microsoft Apps
+      "Microsoft Word" = 462054704;
+      "Microsoft Excel" = 462058435;
+      "Microsoft Outlook" = 985367838;
+      "Microsoft To Do" = 1274495053;
+      "OneDrive" = 823766827;
+      "Microsoft Remote Desktop" = 1295203466;
+
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
+      "Canva" = 897446215;
       "MusicBox" = 1614730313;
+      "Pixen" = 525180431;
       "VIGIL Client Lite" = 1387350823;
 
       # Safari Extensions
@@ -98,7 +105,6 @@
       "AdGuard for Safari" = 1440147259;
 
       # Background Apps
-      "OneDrive" = 823766827;
       "Tailscale" = 1475387142;
     };
   };
