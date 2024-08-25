@@ -60,7 +60,6 @@
       "playcover-community@beta"
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
-      "retroactive"
       "sensei"
       "steam"
       "transmission"
