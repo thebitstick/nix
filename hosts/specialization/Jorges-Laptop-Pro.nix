@@ -54,6 +54,7 @@
       "iina"
       "keepassxc"
       "keyboardcleantool"
+      "musicbrainz-picard"
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
