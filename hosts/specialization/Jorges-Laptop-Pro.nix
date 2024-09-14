@@ -105,7 +105,6 @@
       "AdGuard for Safari" = 1440147259;
 
       # Background Apps
-      "Day Progress" = 6450280202;
       "Tailscale" = 1475387142;
     };
   };
