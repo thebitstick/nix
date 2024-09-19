@@ -89,7 +89,7 @@
       "Microsoft Outlook" = 985367838;
       "Microsoft To Do" = 1274495053;
       "OneDrive" = 823766827;
-      "Microsoft Remote Desktop" = 1295203466;
+      "Windows App" = 1295203466;
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
