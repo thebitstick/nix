@@ -128,9 +128,7 @@
         KeyRepeat = 5;
         PMPrintingExpandedStateForPrint = true;
         PMPrintingExpandedStateForPrint2 = true;
-        "com.apple.trackpad.scaling" = 0.875;
       };
-      ".GlobalPreferences"."com.apple.mouse.scaling" = 0.875;
 
       dock = {
         autohide = true;
@@ -166,11 +164,6 @@
         disable-shadow = false;
         location = null;
         type = "png";
-      };
-
-      trackpad = {
-        Clicking = true;
-        FirstClickThreshold = 2;
       };
     };
   };
