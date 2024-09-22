@@ -5,17 +5,6 @@
     hostName = "Jorges-Laptop-Pro";
     computerName = "Jorge’s Laptop Pro";
     localHostName = "Jorges-Laptop-Pro";
-    knownNetworkServices = [
-      "Wi-Fi"
-      "USB 10/100/1000 LAN"
-    ];
-    dns = [
-      # Cloudflare DNS
-      "1.1.1.1"
-      "1.0.0.1"
-      "2606:4700:4700::1111"
-      "2606:4700:4700::1001"
-    ];
   };
 
   users.users.thebitstick = {
@@ -58,6 +47,7 @@
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
+      "orion"
       "playcover-community@beta"
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
@@ -80,7 +70,7 @@
       "Keynote" = 409183694;
       "Pages" = 409201541;
       "Numbers" = 409203825;
-      #"Xcode" = 497799835;
+      "Xcode" = 497799835;
       "Apple Configurator" = 1037126344;
 
       # Microsoft Apps
@@ -97,12 +87,6 @@
       "MusicBox" = 1614730313;
       "Pixen" = 525180431;
       "VIGIL Client Lite" = 1387350823;
-
-      # Safari Extensions
-      "SponsorBlock" = 1573461917;
-      "10ten Japanese Reader" = 1573540634;
-      "Dark Reader for Safari" = 1438243180;
-      "AdGuard for Safari" = 1440147259;
 
       # Background Apps
       "Tailscale" = 1475387142;
