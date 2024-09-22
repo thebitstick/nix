@@ -85,6 +85,7 @@
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
+      "LINE" = 539883307;
       "MusicBox" = 1614730313;
       "Pixen" = 525180431;
       "VIGIL Client Lite" = 1387350823;
