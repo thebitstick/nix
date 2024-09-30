@@ -37,13 +37,14 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
-      "android-file-transfer" # for TCL Flip 3
+      "android-file-transfer" # for TCL Flip 3 and Cat S22 Flip
       "discord"
       "firefox"
       "grandperspective"
       "iina"
       "keepassxc"
       "keyboardcleantool"
+      "localsend"
       "musicbrainz-picard"
       "netnewswire"
       "nvidia-geforce-now"
