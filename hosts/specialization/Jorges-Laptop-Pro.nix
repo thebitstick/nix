@@ -39,7 +39,7 @@
       # macOS Graphical Apps
       "android-file-transfer" # for TCL Flip 3
       "discord"
-      "firefox@nightly"
+      "firefox"
       "grandperspective"
       "iina"
       "keepassxc"
