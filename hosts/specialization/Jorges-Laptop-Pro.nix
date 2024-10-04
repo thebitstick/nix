@@ -49,7 +49,6 @@
       "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
-      "playcover-community@beta"
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
       "sensei"
