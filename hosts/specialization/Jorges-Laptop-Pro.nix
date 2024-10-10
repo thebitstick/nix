@@ -37,7 +37,7 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
-      "android-file-transfer" # for TCL Flip 3 and Cat S22 Flip
+      "android-file-transfer" # for Cat S22 Flip
       "discord"
       "firefox"
       "grandperspective"
@@ -84,8 +84,6 @@
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
-      "LINE" = 539883307;
-      "MusicBox" = 1614730313;
       "Pixen" = 525180431;
       "VIGIL Client Lite" = 1387350823;
 
