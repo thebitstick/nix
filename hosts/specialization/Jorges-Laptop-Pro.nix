@@ -37,7 +37,7 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
-      "android-file-transfer" # for Cat S22 Flip
+      "android-file-transfer" # for Cat S22 Flip and Qin F21 Pro
       "discord"
       "firefox"
       "grandperspective"
@@ -46,7 +46,6 @@
       "keyboardcleantool"
       "localsend"
       "musicbrainz-picard"
-      "netnewswire"
       "nvidia-geforce-now"
       "openscad" # not notarized
       "prismlauncher"
