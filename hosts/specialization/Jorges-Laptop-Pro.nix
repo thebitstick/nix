@@ -46,6 +46,7 @@
       "keyboardcleantool"
       "localsend"
       "musicbrainz-picard"
+      "notesnook"
       "nvidia-geforce-now"
       "openscad" # not notarized
       "prismlauncher"
