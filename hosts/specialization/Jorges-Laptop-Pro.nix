@@ -52,7 +52,6 @@
       "prismlauncher"
       "zulu@21" # OpenJDK for prismlauncher
       "sensei"
-      "steam"
       "transmission"
       "ultimaker-cura"
       "utm"
