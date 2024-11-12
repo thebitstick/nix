@@ -44,7 +44,6 @@
       "iina"
       "keepassxc"
       "keyboardcleantool"
-      "localsend"
       "musicbrainz-picard"
       "notesnook"
       "nvidia-geforce-now"
