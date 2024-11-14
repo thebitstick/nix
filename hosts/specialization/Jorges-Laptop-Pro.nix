@@ -31,13 +31,14 @@
       "maccy" # should be built-in
       "protonvpn" # work Wi-Fi sucks
       "swiftbar"
+      "syncthing"
 
       # macOS Background Apps
+      "android-file-transfer"
       "keka" # archive utility doesn't support many formats
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
-      "android-file-transfer" # for Cat S22 Flip and Qin F21 Pro
       "discord"
       "firefox"
       "grandperspective"
