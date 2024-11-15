@@ -70,6 +70,7 @@
       "Pages" = 409201541;
       "Numbers" = 409203825;
       "Xcode" = 497799835;
+      "iMovie" = 408981434;
       "Apple Configurator" = 1037126344;
 
       # Microsoft Apps
@@ -87,6 +88,7 @@
       "VIGIL Client Lite" = 1387350823;
 
       # Background Apps
+      "NextDNS" = 1464122853;
       "Rocket Typist" = 6463636684;
       "Tailscale" = 1475387142;
     };
