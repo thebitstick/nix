@@ -55,7 +55,6 @@
       "transmission"
       "ultimaker-cura"
       "utm"
-      "whisky"
 
       # macOS Dev Apps
       "arduino-ide"
