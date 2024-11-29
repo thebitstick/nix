@@ -84,6 +84,7 @@
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
       "Pixen" = 525180431;
+      "Steam Link" = 1246969117;
       "VIGIL Client Lite" = 1387350823;
 
       # Background Apps
