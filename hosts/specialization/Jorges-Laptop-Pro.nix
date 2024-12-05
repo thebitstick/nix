@@ -88,7 +88,6 @@
       "VIGIL Client Lite" = 1387350823;
 
       # Background Apps
-      "NextDNS" = 1464122853;
       "Rocket Typist" = 6463636684;
       "Tailscale" = 1475387142;
     };
