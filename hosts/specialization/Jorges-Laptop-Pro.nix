@@ -25,17 +25,18 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
+      "alfred" # Spotlight has gotten too damn slow, and I don't want Raycast back with its JavaScript-ness
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
       "maccy" # should be built-in
       "protonvpn" # work Wi-Fi sucks
       "swiftbar"
-      "syncthing"
+      "syncthing" # for Music syncing to Motorola Razr 2024
 
       # macOS Background Apps
-      "android-file-transfer"
-      "keka" # archive utility doesn't support many formats
+      "android-file-transfer" # Motorola Razr 2024 is nice, but I NEED the fold/flip iPhone NOW APPLE
+      "keka" # Archive Utility isn't very good
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
@@ -54,7 +55,6 @@
       "sensei"
       "transmission"
       "ultimaker-cura"
-      "utm"
 
       # macOS Dev Apps
       "arduino-ide"
