@@ -117,7 +117,7 @@
       dock = {
         autohide = true;
         autohide-delay = 0.0;
-        expose-group-by-app = true;
+        expose-group-apps = true;
         mineffect = "genie";
         minimize-to-application = false;
         mru-spaces = false;
