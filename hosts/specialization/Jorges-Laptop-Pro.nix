@@ -133,15 +133,15 @@
 	  "/Applications/VIGIL Client Lite.app"
 
 	  # Main
-	  "/Applications/Calendar.app"
+	  "/System/Applications/Calendar.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
-	  "/Applications/FindMy.app"
+	  "/System/Applications/FindMy.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Firefox.app"
-	  "/Applications/Home.app"
-	  "/Applications/Mail.app"
+	  "/System/Applications/Home.app"
+	  "/System/Applications/Mail.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
-	  "/Applications/Photos.app"
-	  "/Applications/Utilities/Terminal.app"
+	  "/System/Applications/Photos.app"
+	  "/System/Applications/Utilities/Terminal.app"
 	];
       };
 
