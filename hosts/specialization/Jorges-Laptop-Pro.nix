@@ -22,20 +22,22 @@
     enable = true;
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
+    onActivation.cleanup = "uninstall";
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
       "alfred" # Spotlight has gotten too damn slow, and I don't want Raycast back with its JavaScript-ness
+      "altserver" # Sideloading should be allowed, but made difficult for grandmas
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
       "maccy" # should be built-in
       "protonvpn" # work Wi-Fi sucks
       "swiftbar"
-      "syncthing" # for Music syncing to Motorola Razr 2024
+      "syncthing" # will be purged, worked great though 
 
       # macOS Background Apps
-      "android-file-transfer" # Motorola Razr 2024 is nice, but I NEED the fold/flip iPhone NOW APPLE
+      "android-file-transfer" # will be purged, works better than OpenMTP sometimes
       "keka" # Archive Utility isn't very good
       "mountain-duck" # Finder FTP is only read-only
 
@@ -51,7 +53,6 @@
       "nvidia-geforce-now"
       "openscad" # not notarized
       "prismlauncher"
-      "zulu@21" # OpenJDK for prismlauncher
       "sensei"
       "transmission"
       "ultimaker-cura"
@@ -124,6 +125,24 @@
         orientation = "bottom";
         show-recents = false;
         tilesize = 40;
+	persistent-apps = [
+	  # Work
+	  "/Applications/Canva.app"
+	  "/Applications/Microsoft Outlook.app"
+	  "/Applications/Microsoft To Do.app"
+	  "/Applications/VIGIL Client Lite.app"
+
+	  # Main
+	  "/Applications/Calendar.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
+	  "/Applications/FindMy.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Firefox.app"
+	  "/Applications/Home.app"
+	  "/Applications/Mail.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
+	  "/Applications/Photos.app"
+	  "/Applications/Utilities/Terminal.app"
+	];
       };
 
       finder = {
