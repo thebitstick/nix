@@ -1,21 +1,19 @@
 { config, pkgs, ... }:
 
 {
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
-  boot.plymouth.enable = true;
+  boot = {
+    loader = {
+      systemd-boot.enable = true;
+      efi.canTouchEfiVariables = true;
+    };
+    initrd.kernelModules = [ "amdgpu" ];
+    plymouth.enable = true;
+  };
 
   networking = {
     hostName = "Jorges-Laptop-Ultra";
     networkmanager.enable = true;
     firewall.enable = true;
-    nameservers = [
-      # Cloudflare DNS
-      "1.1.1.1"
-      "1.0.0.1"
-      "2606:4700:4700::1111"
-      "2606:4700:4700::1001"
-    ];
   };
 
   users.users.thebitstick = {
@@ -25,7 +23,11 @@
     shell = pkgs.nushell;
   };
 
-  time.timeZone = "America/Chicago";
+  time = {
+    hardwareClockInLocalTime = true;
+    timeZone = "America/Chicago";
+  };
+
   i18n.defaultLocale = "en_US.UTF-8";
 
   environment = {
@@ -44,7 +46,42 @@
     };
   };
 
+  hardware = {
+    graphics.enable32Bit = true;
+    opengl = {
+      enable = true;
+      driSupport = true;
+      driSupport32bit = true;
+    };
+  };
+
   services = {
+    flatpak.enable = true;
+    fprintd.enable = true;
+    openssh = {
+      enable = true;
+      settings.PasswordAuthentication = false;
+    };
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+      alsa.support32Bit = true;
+      pulse.enable = true;
+    };
+    printing.enable = true;
+    qemuGuest.enable = true;
+    resolved = {
+      enable = true;
+      extraConfig = "
+      DNS=45.90.28.0#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
+      DNS=2a07:a8c0::#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
+      DNS=45.90.30.0#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
+      DNS=2a07:a8c1::#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
+      DNSOverTLS=yes
+      ";
+    };
+    spice-vdagentd.enable = true;
+    #tailscale.enable = true;
     xserver = {
       enable = true;
       autorun = true;
@@ -59,26 +96,11 @@
       desktopManager.gnome = {
         enable = true;
       };
+      videoDrivers = [ "amdgpu" ];
     };
-    pipewire = {
-      enable = true;
-      alsa.enable = true;
-      alsa.support32Bit = true;
-      pulse.enable = true;
-    };
-    openssh = {
-      enable = true;
-      settings.PasswordAuthentication = false;
-    };
-    tailscale.enable = true;
-    printing.enable = true;
-    flatpak.enable = true;
-    spice-vdagentd.enable = true;
-    qemuGuest.enable = true;
   };
 
   security.rtkit.enable = true;
-  hardware.pulseaudio.enable = false;
   powerManagement.enable = true;
 
   nix.gc.dates = "weekly";

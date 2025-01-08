@@ -2,8 +2,8 @@
 
 This repository contains configurations for:
 
-- my MacBook Pro "Jorges-Laptop-Pro",
-- my imaginary Linux laptop "Jorges-Laptop-Ultra" and
+- my MacBook Pro 14 "Jorges-Laptop-Pro",
+- my Framework 13 "Jorges-Laptop-Ultra" and
 - my RockPro64 Linux server "Pomu"
 
 ## Jorges-Laptop-Pro (Nix-Darwin aarch64 standard)
@@ -14,7 +14,7 @@ Once you're acquainted with Nix-Darwin and Flakes, you're free to use this proje
 
 Note that I compartmentalize each system into a separate "specialization" flake that gets merged with a base `configuration.nix` file that is common and shared with all my systems.
 
-## Jorges-Laptop-Ultra (NixOS aarch64 standard)
+## Jorges-Laptop-Ultra (NixOS x86_64 standard)
 
 Grab the [NixOS install ISO](https://nixos.org/download/) and follow the manual to create a basic install. The graphical installer is great as a base and helps you understand what parts you need to define to make a working system.
 

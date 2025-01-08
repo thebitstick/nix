@@ -9,6 +9,9 @@
     };
     neovim = {
       enable = true;
+      viAlias = true;
+      vimAlias = true;
+      defaultEditor = true;
     };
     nushell = {
       enable = true;
@@ -16,7 +19,7 @@
       $env.config.show_banner = false
 
       $env.EDITOR = "nvim"
-      $env.VISUAL = "zed"
+      $env.VISUAL = "nvim"
 
       def clean [] {
           nix-collect-garbage -d
@@ -29,10 +32,8 @@
       '';
       shellAliases = {
         cat = "bat --plain --paging=never";
-        editv = "zed";
         sedit = "sudo nvim";
         edit = "nvim";
-        vim = "nvim";
       };
     };
   };

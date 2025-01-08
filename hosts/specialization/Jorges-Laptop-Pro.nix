@@ -34,10 +34,9 @@
       "maccy" # should be built-in
       "protonvpn" # work Wi-Fi sucks
       "swiftbar"
-      "syncthing" # will be purged, worked great though 
+      "syncthing" # will be purged, worked great though
 
       # macOS Background Apps
-      "android-file-transfer" # will be purged, works better than OpenMTP sometimes
       "keka" # Archive Utility isn't very good
       "mountain-duck" # Finder FTP is only read-only
 
@@ -116,7 +115,7 @@
       };
 
       dock = {
-        autohide = true;
+        autohide = false;
         autohide-delay = 0.0;
         expose-group-apps = true;
         mineffect = "genie";

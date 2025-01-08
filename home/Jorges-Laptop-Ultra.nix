@@ -33,23 +33,17 @@
     rustc
 
     # Graphical Apps
-    # arduino-ide (x86_64 only)
     baobab
-    # celluloid
-    # cura
-    # discord (x86_64 only)
+    discord
+    celluloid
     firefox
-    # keepassxc
-    # obs-studio
-    # obsidian
-    # openscad
-    # prismlauncher
-    # (some rss reader)
-    # sidequest (x86_64 only)
-    # tenacity
-    # tetrio-desktop (x86_64 only)
-    # transmission
+    obs-studio
     vscodium
+
+    # Gaming Apps
+    heroic
+    prismlauncher
+    tetrio-desktop
   ];
 
   programs = {
@@ -60,6 +54,9 @@
     };
     neovim = {
       enable = true;
+      viAlias = true;
+      vimAlias = true;
+      defaultEditor = true;
     };
     nushell = {
       enable = true;
@@ -83,9 +80,14 @@
         editv = "codium";
         sedit = "sudo nvim";
         edit = "nvim";
-        vim = "nvim";
       };
     };
+    steam = {
+      enable = true;
+      remotePlay.openFirewall = true;
+      dedicatedServer.openFirewall = true;
+      localNetworkGameTransfers.openFirewall = true;
+    }
   };
 
   programs.home-manager.enable = true;

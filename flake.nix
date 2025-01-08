@@ -1,8 +1,8 @@
 {
   description = ''
     Nix Configurations for
-      Jorge's Laptop Pro (MacBook Pro),
-      Jorge's Laptop Ultra (my imaginary Linux laptop) and
+      Jorge's Laptop Pro (MacBook Pro 14),
+      Jorge's Laptop Ultra (Framework 13) and
       Pomu (my Linux RockPro64 server)
   '';
 
@@ -33,7 +33,7 @@
     };
     nixosConfigurations = {
       "Jorges-Laptop-Ultra" = nixpkgs.lib.nixosSystem {
-        system = "aarch64-linux";
+        system = "x86_64-linux";
         modules = [
           ./configuration.nix
           ./hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
