@@ -8,6 +8,7 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixos-hardware.url = "github:NixOS/nixos-hardware";
     darwin.url = "github:LnL7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -15,7 +16,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, darwin, home-manager, ... }: {
+  outputs = { self, nixpkgs, darwin, nixos-hardware, home-manager, ... }: {
     darwinConfigurations = {
       "Jorges-Laptop-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
@@ -38,6 +39,7 @@
           ./configuration.nix
           ./hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
           ./hosts/specialization/Jorges-Laptop-Ultra.nix
+          nixos-hardware.nixosModules.framework-13-7040-amd
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;
