@@ -74,6 +74,12 @@
       liberation_ttf
       fira-code
       fira-code-symbols
+      carlito
+      dejavu_fonts
+      ipafont
+      kochi-substitute
+      source-code-pro
+      ttf_bitstream_vera
     ];
   };
 
