@@ -11,7 +11,7 @@
     "org/gnome/shell" = {
       favorite-apps = [
         "org.gnome.Nautilus.desktop"
-        "org.gnome.Epiphany.desktop"
+	"firefox.desktop"
         "org.gnome.Console.desktop"
         "codium.desktop"
       ];
@@ -20,12 +20,10 @@
 
   home.packages = with pkgs; [
     # Terminal Utilities
-    android-tools
     fastfetch
     ffmpeg
     imagemagick
     nixpkgs-fmt
-    scrcpy
     yt-dlp
 
     # Programming Languages
@@ -35,7 +33,6 @@
     # Graphical Apps
     baobab
     discord
-    celluloid
     firefox
     obs-studio
     vscodium
@@ -82,12 +79,6 @@
         edit = "nvim";
       };
     };
-    steam = {
-      enable = true;
-      remotePlay.openFirewall = true;
-      dedicatedServer.openFirewall = true;
-      localNetworkGameTransfers.openFirewall = true;
-    }
   };
 
   programs.home-manager.enable = true;
