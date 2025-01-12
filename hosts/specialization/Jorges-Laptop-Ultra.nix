@@ -13,7 +13,6 @@
   networking = {
     hostName = "Jorges-Laptop-Ultra";
     networkmanager.enable = true;
-    firewall.enable = true;
   };
 
   users.users.thebitstick = {
@@ -94,18 +93,7 @@
       pulse.enable = true;
     };
     qemuGuest.enable = true;
-    resolved = {
-      enable = true;
-      extraConfig = "
-      DNS=45.90.28.0#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
-      DNS=2a07:a8c0::#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
-      DNS=45.90.30.0#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
-      DNS=2a07:a8c1::#Jorges-Laptop-Ultra-73952a.dns.nextdns.io
-      DNSOverTLS=yes
-      ";
-    };
     spice-vdagentd.enable = true;
-    #tailscale.enable = true;
     xserver = {
       enable = true;
       autorun = true;
