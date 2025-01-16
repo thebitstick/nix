@@ -32,7 +32,7 @@
 
     "org/gnome/shell" = {
       enabled-extensions = [ "apps-menu@gnome-shell-extensions.gcampax.github.com" "places-menu@gnome-shell-extensions.gcampax.github.com" "system-monitor@gnome-shell-extensions.gcampax.github.com" "status-icons@gnome-shell-extensions.gcampax.github.com" ];
-      favorite-apps = [ "org.gnome.Nautilus.desktop" "firefox.desktop" "org.gnome.Console.desktop" "codium.desktop" ];
+      favorite-apps = [ "org.gnome.Nautilus.desktop" "firefox.desktop" "discord.desktop" "steam.desktop" "org.gnome.Console.desktop" "codium.desktop" ];
       last-selected-power-profile = "performance";
     };
 
