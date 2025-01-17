@@ -51,6 +51,7 @@
       "notesnook"
       "nvidia-geforce-now"
       "openscad" # not notarized
+      "orion"
       "prismlauncher"
       "sensei"
       "transmission"
