@@ -79,7 +79,7 @@
     # Graphical Apps
     baobab
     celluloid
-    cura
+    # cura # broken python packages?
     discord
     firefox
     notesnook
