@@ -131,14 +131,17 @@
 	  "/Applications/Microsoft Outlook.app"
 	  "/Applications/Microsoft To Do.app"
 	  "/Applications/VIGIL Client Lite.app"
+	  "/Users/thebitstick/Applications/Orion/Orion Profiles/4E81385A-2C95-4CBA-824C-72758205CEEB/Orion - FPPLD.app"
 
 	  # Main
 	  "/System/Applications/Calendar.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
 	  "/System/Applications/FindMy.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Orion.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Firefox.app"
 	  "/System/Applications/Home.app"
 	  "/System/Applications/Mail.app"
+	  "/System/Applications/Messages.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
 	  "/System/Applications/Photos.app"
 	  "/System/Applications/Utilities/Terminal.app"
