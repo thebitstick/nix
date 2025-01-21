@@ -78,10 +78,15 @@
 
     # Graphical Apps
     baobab
+    celluloid
+    cura
     discord
     firefox
+    notesnook
     obs-studio
-    vscodium
+    openscad
+    transmission_4-gtk
+    zed-editor
 
     # Gaming Apps
     heroic
