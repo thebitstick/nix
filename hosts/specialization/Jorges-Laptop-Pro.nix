@@ -32,6 +32,7 @@
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
       "maccy" # should be built-in
+      "notchnook"
       "protonvpn" # work Wi-Fi sucks
       "swiftbar"
       "syncthing" # will be purged, worked great though
