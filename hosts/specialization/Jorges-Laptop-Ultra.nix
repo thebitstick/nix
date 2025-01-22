@@ -67,7 +67,10 @@
 
   fonts = {
     fontconfig.useEmbeddedBitmaps = true;
+    fontDir.enable = true;
     packages = with pkgs; [
+      corefonts
+      vistafonts
       noto-fonts
       noto-fonts-cjk-sans
       noto-fonts-emoji
@@ -96,6 +99,7 @@
   services = {
     flatpak.enable = true;
     fprintd.enable = true;
+    fwupd.enable = true;
     libinput = {
       enable = true;
       touchpad.tapping = true;
