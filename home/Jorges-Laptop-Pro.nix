@@ -16,6 +16,11 @@
     rustc
   ];
 
+  home.file."/Users/thebitstick/Developer/Programs/SwiftBar/time.1s.sh" = {
+    source = ./time.1s.sh;
+    executable = true;
+  };
+
   programs = {
     git = {
         enable = true;
