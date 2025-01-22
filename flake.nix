@@ -9,6 +9,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     nixos-hardware.url = "github:NixOS/nixos-hardware";
+    nixos-grub-themes.url = "github:jeslie0/nixos-grub-themes";
     darwin.url = "github:LnL7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
 
@@ -16,7 +17,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { self, nixpkgs, darwin, nixos-hardware, home-manager, ... }: {
+  outputs = inputs@{ self, nixpkgs, nixos-hardware, nixos-grub-themes, darwin, home-manager, ... }: {
     darwinConfigurations = {
       "Jorges-Laptop-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
@@ -35,6 +36,7 @@
     nixosConfigurations = {
       "Jorges-Laptop-Ultra" = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
+	specialArgs = { inherit inputs; };
         modules = [
           ./configuration.nix
           ./hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
