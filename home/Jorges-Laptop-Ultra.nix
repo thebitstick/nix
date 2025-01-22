@@ -111,7 +111,6 @@
     openscad
     protonvpn-gui
     transmission_4-gtk
-    zed-editor
 
     # Gaming Apps
     heroic
@@ -169,6 +168,39 @@
         editv = "zeditor";
         sedit = "sudo nvim";
         edit = "nvim";
+      };
+    };
+    zed-editor = {
+      enable = true;
+      extensions = [
+        "html"
+	"lua"
+	"swift"
+	"nix"
+      ];
+      userSettings = {
+        features = {
+	  copilot = false;
+	};
+	collaboration_panel = {
+	  button = false;
+	};
+	chat_panel = {
+	  button = false;
+	};
+	notification_panel = {
+	  button = false;
+	};
+	assistant = {
+	  button = false;
+	};
+	telemetry = {
+	  metrics = false;
+	};
+	base_keymap = "VSCode";
+	theme = "Atelier Lakeside Dark";
+	ui_font_size = 16;
+	buffer_font_size = 16;
       };
     };
   };
