@@ -49,7 +49,7 @@
 	"discord.desktop"
 	"steam.desktop"
 	"org.gnome.Console.desktop"
-	"codium.desktop"
+	"zed.desktop"
       ];
       last-selected-power-profile = "performance";
     };
@@ -108,6 +108,7 @@
     notesnook
     obs-studio
     openscad
+    protonvpn-gui
     transmission_4-gtk
     zed-editor
 
@@ -117,6 +118,11 @@
     tetrio-desktop
   ];
 
+  home.file."${config.xdg.configHome}/argos/time.1s.sh" = {
+     source = ./time.1s.sh;
+     executable = true;
+  };
+  
   programs = {
     git = {
         enable = true;

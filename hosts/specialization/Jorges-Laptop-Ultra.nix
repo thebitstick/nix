@@ -112,6 +112,10 @@
     };
     qemuGuest.enable = true;
     spice-vdagentd.enable = true;
+    tailscale = {
+      enable = true;
+      useRoutingFeatures = "client";
+    };
     xserver = {
       enable = true;
       autorun = true;
