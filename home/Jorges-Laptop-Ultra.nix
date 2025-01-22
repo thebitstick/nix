@@ -119,7 +119,18 @@
   ];
 
   home.file."${config.xdg.configHome}/argos/time.1s.sh" = {
-     source = ./time.1s.sh;
+     source = let
+     	config = builtins.replaceStrings [
+	  "#!/Users/thebitstick/.local/state/home-manager/gcroots/current-home/home-path/bin/nu"
+	  ""
+	]
+	[
+	  "#!/usr/bin/env nu"
+	  ""
+	]
+	(builtins.readFile ./time.1s.sh);
+	in
+	pkgs.writeText "config" config;
      executable = true;
   };
   
