@@ -43,16 +43,9 @@
   environment = {
     gnome.excludePackages = with pkgs; [
       epiphany
-      evince
-      geary
-      gnome-calendar
-      gnome-characters
-      gnome-clocks
-      gnome-contacts
       gnome-maps
       gnome-music
       gnome-tour
-      gnome-weather
       simple-scan
       totem
       xterm
