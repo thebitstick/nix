@@ -84,12 +84,12 @@
       declarative = true;
       serverProperties = {
         server-port = 25565;
-	gamemode = "survival";
-	motd = "\\u00a7l\\u00a7o\\u00a7nDeclarative Server\\u00a7r\\u00a7l\\u00a7n powered by NixOS";
-	max-players = 5;
-	level-seed = "nixos";
-	enable-rcon = true;
-	"rcon.password" = "nixos";
+        gamemode = "survival";
+        motd = "\\u00a7l\\u00a7o\\u00a7nDeclarative Server\\u00a7r\\u00a7l\\u00a7n powered by NixOS";
+        max-players = 5;
+        level-seed = "nixos";
+        enable-rcon = true;
+        "rcon.password" = "nixos";
       };
     };
     openssh = {
@@ -111,5 +111,5 @@
   users.users.nginx.extraGroups = [ "acme" ];
 
   nix.gc.dates = "weekly";
-  system.stateVersion = "23.05";
+  system.stateVersion = "24.11";
 }

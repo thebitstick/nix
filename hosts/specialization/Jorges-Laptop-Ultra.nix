@@ -6,11 +6,11 @@
       efi.canTouchEfiVariables = true;
       grub = {
         enable = true;
-	devices = [ "nodev" ];
-	efiSupport = true;
-	useOSProber = true;
-	gfxmodeEfi = "1600x1200";
-	theme = inputs.nixos-grub-themes.packages.${pkgs.system}.nixos;
+        devices = [ "nodev" ];
+        efiSupport = true;
+        useOSProber = true;
+        gfxmodeEfi = "1600x1200";
+        theme = inputs.nixos-grub-themes.packages.${pkgs.system}.nixos;
       };
     };
     initrd.kernelModules = [ "amdgpu" ];
@@ -52,6 +52,7 @@
       epiphany
       gnome-maps
       gnome-music
+      gnome-software
       gnome-tour
       simple-scan
       totem

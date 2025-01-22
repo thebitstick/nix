@@ -34,22 +34,21 @@
       enabled-extensions = [
         # Default System Extensions
         "apps-menu@gnome-shell-extensions.gcampax.github.com"
-	"places-menu@gnome-shell-extensions.gcampax.github.com"
-	"system-monitor@gnome-shell-extensions.gcampax.github.com"
-	"status-icons@gnome-shell-extensions.gcampax.github.com"
-	
-	# Home Manager Extensions
-	"clipboard-indicator@tudmotu.com"
-	"windowIsReady_Remover@nunofarruca@gmail.com"
-	"argos@pew.worldwidemann.com"
+        "places-menu@gnome-shell-extensions.gcampax.github.com"
+        "system-monitor@gnome-shell-extensions.gcampax.github.com"
+        "status-icons@gnome-shell-extensions.gcampax.github.com"
+
+        # Home Manager Extensions
+        "clipboard-indicator@tudmotu.com"
+        "windowIsReady_Remover@nunofarruca@gmail.com"
+        "argos@pew.worldwidemann.com"
       ];
       favorite-apps = [
         "org.gnome.Nautilus.desktop"
-	"firefox.desktop"
-	"discord.desktop"
-	"steam.desktop"
-	"org.gnome.Console.desktop"
-	"zed.desktop"
+        "firefox.desktop"
+        "discord.desktop"
+        "steam.desktop""org.gnome.Console.desktop"
+        "zed.desktop"
       ];
       last-selected-power-profile = "performance";
     };
@@ -133,7 +132,7 @@
 	pkgs.writeText "config" config;
      executable = true;
   };
-  
+
   programs = {
     git = {
         enable = true;
@@ -174,37 +173,37 @@
       enable = true;
       extensions = [
         "html"
-	"lua"
-	"swift"
-	"nix"
+        "lua"
+        "swift"
+        "nix"
       ];
       userSettings = {
         features = {
-	  copilot = false;
-	};
-	collaboration_panel = {
-	  button = false;
-	};
-	chat_panel = {
-	  button = false;
-	};
-	notification_panel = {
-	  button = false;
-	};
-	assistant = {
-	  button = false;
-	};
-	telemetry = {
-	  metrics = false;
-	};
-	base_keymap = "VSCode";
-	theme = "Atelier Lakeside Dark";
-	ui_font_size = 16;
-	buffer_font_size = 16;
+          copilot = false;
+        };
+        collaboration_panel = {
+          button = false;
+        };
+        chat_panel = {
+          button = false;
+        };
+        notification_panel = {
+          button = false;
+        };
+        assistant = {
+          button = false;
+        };
+        telemetry = {
+          metrics = false;
+        };
+        base_keymap = "VSCode";
+        theme = "Atelier Lakeside Dark";
+        ui_font_size = 16;
+        buffer_font_size = 16;
       };
     };
   };
 
   programs.home-manager.enable = true;
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.11";
 }
