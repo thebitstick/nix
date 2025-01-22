@@ -96,7 +96,10 @@
       enable = true;
       settings.PasswordAuthentication = false;
     };
-    tailscale.enable = true;
+    tailscale = {
+      enable = true;
+      useRoutingFeatures = "server";
+    };
   };
 
   security.acme = {
