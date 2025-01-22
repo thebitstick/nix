@@ -3,8 +3,14 @@
 {
   boot = {
     loader = {
-      systemd-boot.enable = true;
       efi.canTouchEfiVariables = true;
+      grub = {
+        enable = true;
+	devices = [ "nodev" ];
+	efiSupport = true;
+	useOSProber = true;
+	gfxmodeEfi = "640x480";
+      };
     };
     initrd.kernelModules = [ "amdgpu" ];
     plymouth.enable = true;
@@ -54,7 +60,7 @@
 
     variables = {
       EDITOR = "nvim";
-      VISUAL = "codium";
+      VISUAL = "zeditor";
     };
   };
 

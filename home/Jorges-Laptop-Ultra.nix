@@ -67,6 +67,7 @@
     };
 
     "org/gnome/settings-daemon/plugins/power" = {
+      ambient-enabled = false;
       idle-dim = false;
       sleep-inactive-ac-timeout = 7200;
       sleep-inactive-ac-type = "suspend";
@@ -152,7 +153,7 @@
       $env.config.show_banner = false
 
       $env.EDITOR = "nvim"
-      $env.VISUAL = "codium"
+      $env.VISUAL = "zeditor"
 
       def clean [] {
           nix-collect-garbage -d
@@ -165,7 +166,7 @@
       '';
       shellAliases = {
         cat = "bat --plain --paging=never";
-        editv = "codium";
+        editv = "zeditor";
         sedit = "sudo nvim";
         edit = "nvim";
       };
