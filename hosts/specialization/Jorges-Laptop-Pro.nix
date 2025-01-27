@@ -144,7 +144,7 @@
 	  "/System/Applications/Home.app"
 	  "/System/Applications/Mail.app"
 	  "/System/Applications/Messages.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/NetNetsWire.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
 	  "/System/Applications/Notes.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
 	  "/System/Applications/Photos.app"
