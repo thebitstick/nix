@@ -144,8 +144,11 @@
 	  "/System/Applications/Home.app"
 	  "/System/Applications/Mail.app"
 	  "/System/Applications/Messages.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/NetNetsWire.app"
+	  "/System/Applications/Notes.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
 	  "/System/Applications/Photos.app"
+	  "/System/Applications/Reminders.app"
 	  "/System/Applications/Utilities/Terminal.app"
 	];
       };
