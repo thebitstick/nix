@@ -49,6 +49,7 @@
       "keepassxc"
       "keyboardcleantool"
       "musicbrainz-picard"
+      "netnewswire"
       "notesnook"
       "nvidia-geforce-now"
       "openscad" # not notarized
