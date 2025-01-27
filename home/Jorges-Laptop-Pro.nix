@@ -14,6 +14,9 @@
     # Programming Languages
     cargo
     rustc
+
+    # Language Model Utilities
+    ollama
   ];
 
   home.file."/Users/thebitstick/Developer/Programs/SwiftBar/time.1s.sh" = {
