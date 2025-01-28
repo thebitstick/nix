@@ -105,7 +105,6 @@
     # cura # broken python packages?
     discord
     firefox
-    notesnook
     obs-studio
     openscad
     protonvpn-gui

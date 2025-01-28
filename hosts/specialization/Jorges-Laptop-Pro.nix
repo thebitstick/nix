@@ -50,7 +50,6 @@
       "keyboardcleantool"
       "musicbrainz-picard"
       "netnewswire"
-      "notesnook"
       "nvidia-geforce-now"
       "openscad" # not notarized
       "orion"
@@ -146,7 +145,6 @@
 	  "/System/Applications/Messages.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
 	  "/System/Applications/Notes.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Notesnook.app"
 	  "/System/Applications/Photos.app"
 	  "/System/Applications/Reminders.app"
 	  "/System/Applications/Utilities/Terminal.app"
