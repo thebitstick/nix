@@ -26,16 +26,14 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
-      "alfred" # Spotlight has gotten too damn slow, and I don't want Raycast back with its JavaScript-ness
       "altserver" # Sideloading should be allowed, but made difficult for grandmas
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
-      "maccy" # should be built-in
       "notchnook"
       "protonvpn" # work Wi-Fi sucks
+      "raycast"
       "swiftbar"
-      "syncthing" # will be purged, worked great though
 
       # macOS Background Apps
       "keka" # Archive Utility isn't very good
