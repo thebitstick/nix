@@ -60,6 +60,10 @@
       yelp
     ];
 
+    systemPackages = with pkgs; [
+      (pkgs.hiPrio uutils-coreutils-noprefix)
+    ];
+
     variables = {
       EDITOR = "nvim";
       VISUAL = "zeditor";
