@@ -26,11 +26,11 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
+      "alcove"
       "altserver" # Sideloading should be allowed, but made difficult for grandmas
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
-      "notchnook"
       "protonvpn" # work Wi-Fi sucks
       "raycast"
 
