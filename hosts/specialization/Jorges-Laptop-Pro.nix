@@ -33,13 +33,13 @@
       "notchnook"
       "protonvpn" # work Wi-Fi sucks
       "raycast"
-      "swiftbar"
 
       # macOS Background Apps
       "keka" # Archive Utility isn't very good
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
+      "crossover"
       "discord"
       "firefox"
       "grandperspective"
@@ -55,6 +55,8 @@
       "sensei"
       "transmission"
       "ultimaker-cura"
+      "utm"
+      "zen-browser"
 
       # macOS Dev Apps
       "arduino-ide"
@@ -72,6 +74,13 @@
       "iMovie" = 408981434;
       "Apple Configurator" = 1037126344;
 
+      # Safari Extensions
+      "SponsorBlock" = 1573461917;
+      "10ten Japanese Reader" = 1573540634;
+      "Dark Reader for Safari" = 1438243180;
+      "Bitwarden" = 1352778147;
+      "AdGuard for Safari" = 1440147259;
+
       # Microsoft Apps
       "Microsoft Word" = 462054704;
       "Microsoft Excel" = 462058435;
@@ -88,7 +97,6 @@
       "VIGIL Client Lite" = 1387350823;
 
       # Background Apps
-      "Rocket Typist" = 6463636684;
       "Tailscale" = 1475387142;
     };
   };
@@ -130,14 +138,11 @@
 	  "/Applications/Microsoft Outlook.app"
 	  "/Applications/Microsoft To Do.app"
 	  "/Applications/VIGIL Client Lite.app"
-	  "/Users/thebitstick/Applications/Orion/Orion Profiles/4E81385A-2C95-4CBA-824C-72758205CEEB/Orion - FPPLD.app"
 
 	  # Main
 	  "/System/Applications/Calendar.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
 	  "/System/Applications/FindMy.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Orion.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Firefox.app"
 	  "/System/Applications/Home.app"
 	  "/System/Applications/Mail.app"
 	  "/System/Applications/Messages.app"
@@ -145,6 +150,7 @@
 	  "/System/Applications/Notes.app"
 	  "/System/Applications/Photos.app"
 	  "/System/Applications/Reminders.app"
+	  "/System/Applications/Safari.app"
 	  "/System/Applications/Utilities/Terminal.app"
 	];
       };
