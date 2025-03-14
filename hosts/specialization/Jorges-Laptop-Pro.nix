@@ -55,7 +55,6 @@
       "sensei"
       "transmission"
       "ultimaker-cura"
-      "utm"
       "zen-browser"
 
       # macOS Dev Apps
@@ -146,7 +145,7 @@
 	  "/System/Applications/Notes.app"
 	  "/System/Applications/Photos.app"
 	  "/System/Applications/Reminders.app"
-	  "/System/Applications/Safari.app"
+	  "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
 	  "/System/Applications/Utilities/Terminal.app"
 	];
       };
