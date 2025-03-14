@@ -101,10 +101,6 @@
     };
   };
 
-  security = {
-    pam.enableSudoTouchIdAuth = true;
-  };
-
   system = {
     defaults = {
       NSGlobalDomain = {
@@ -182,11 +178,12 @@
   };
 
   nixpkgs.hostPlatform = "aarch64-darwin";
-  services.nix-daemon.enable = true;
   nix = {
     gc.interval.Day = 7;
     package = pkgs.nix;
   };
+
+  security.pam.services.sudo_local.touchIdAuth = true;
 
   system.stateVersion = 4;
 }
