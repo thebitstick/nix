@@ -145,8 +145,8 @@
 	  "/System/Applications/Notes.app"
 	  "/System/Applications/Photos.app"
 	  "/System/Applications/Reminders.app"
-	  "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
 	  "/System/Applications/Utilities/Terminal.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
 	];
       };
 
