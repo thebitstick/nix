@@ -41,7 +41,6 @@
       # macOS Graphical Apps
       "crossover"
       "discord"
-      "firefox"
       "grandperspective"
       "iina"
       "keepassxc"
