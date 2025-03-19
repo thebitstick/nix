@@ -106,7 +106,7 @@
         ApplePressAndHoldEnabled = true;
         AppleShowAllExtensions = true;
         AppleShowScrollBars = "Automatic";
-	AppleMeasurementUnits = "Centimeters";
+        AppleMeasurementUnits = "Centimeters";
         AppleMetricUnits = 1;
         AppleTemperatureUnit = "Celsius";
         AppleWindowTabbingMode = "always";
@@ -126,27 +126,27 @@
         orientation = "bottom";
         show-recents = false;
         tilesize = 40;
-	persistent-apps = [
-	  # Work
-	  "/Applications/Canva.app"
-	  "/Applications/Microsoft Outlook.app"
-	  "/Applications/Microsoft To Do.app"
-	  "/Applications/VIGIL Client Lite.app"
+        persistent-apps = [
+          # Work
+          # "/Applications/Canva.app"
+          "/Applications/Microsoft Outlook.app"
+          "/Applications/Microsoft To Do.app"
+          "/Applications/VIGIL Client Lite.app"
 
-	  # Main
-	  "/System/Applications/Calendar.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
-	  "/System/Applications/FindMy.app"
-	  "/System/Applications/Home.app"
-	  "/System/Applications/Mail.app"
-	  "/System/Applications/Messages.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
-	  "/System/Applications/Notes.app"
-	  "/System/Applications/Photos.app"
-	  "/System/Applications/Reminders.app"
-	  "/System/Applications/Utilities/Terminal.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
-	];
+          # Main
+          "/System/Applications/Calendar.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
+          "/System/Applications/FindMy.app"
+          "/System/Applications/Home.app"
+          "/System/Applications/Mail.app"
+          "/System/Applications/Messages.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
+          "/System/Applications/Notes.app"
+          "/System/Applications/Photos.app"
+          "/System/Applications/Reminders.app"
+          "/System/Applications/Utilities/Terminal.app"
+					"/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
+        ];
       };
 
       finder = {
