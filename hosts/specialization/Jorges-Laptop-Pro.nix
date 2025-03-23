@@ -54,6 +54,7 @@
       "orion"
       "prismlauncher"
       "sensei"
+      "steam"
       "transmission"
       "ultimaker-cura"
       "zen-browser"
@@ -130,7 +131,7 @@
         tilesize = 40;
         persistent-apps = [
           # Work
-          # "/Applications/Canva.app"
+          "/Applications/Canva.app"
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
           "/Applications/VIGIL Client Lite.app"
@@ -147,7 +148,7 @@
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
           "/System/Applications/Utilities/Terminal.app"
-					"/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
         ];
       };
 
