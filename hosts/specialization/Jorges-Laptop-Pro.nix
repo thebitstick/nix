@@ -28,7 +28,6 @@
       # macOS Background Apps (always-on)
       "alcove"
       "aldente"
-      "altserver" # Sideloading should be allowed, but made difficult for grandmas
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
@@ -50,6 +49,7 @@
       "musicbrainz-picard"
       "netnewswire"
       "nvidia-geforce-now"
+      "obs"
       "openscad" # not notarized
       "orion"
       "prismlauncher"
