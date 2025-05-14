@@ -15,6 +15,7 @@
   environment = {
     systemPackages = with pkgs; [
       fish
+      mas
     ];
   };
 
@@ -93,6 +94,7 @@
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
+      "Console Link" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
       "VIGIL Client Lite" = 1387350823;
@@ -138,6 +140,7 @@
 
           # Main
           "/System/Applications/Calendar.app"
+	  "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/System/Applications/Home.app"
