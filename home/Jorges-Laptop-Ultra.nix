@@ -111,9 +111,9 @@
     transmission_4-gtk
 
     # Gaming Apps
-    heroic
     prismlauncher
     tetrio-desktop
+    torzu
   ];
 
   home.file."${config.xdg.configHome}/argos/time.1s.sh" = {
