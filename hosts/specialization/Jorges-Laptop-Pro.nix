@@ -58,7 +58,7 @@
       "steam"
       "transmission"
       "ultimaker-cura"
-      "zen-browser"
+      "zen"
 
       # macOS Dev Apps
       "arduino-ide"
