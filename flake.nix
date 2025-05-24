@@ -81,6 +81,9 @@
             home-manager.users.admin = import ./home/Pomu.nix;
           }
           nix-minecraft.nixosModules.minecraft-servers
+	  {
+	    nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
+          }
         ];
       };
     };
