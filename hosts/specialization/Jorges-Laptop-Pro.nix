@@ -105,6 +105,7 @@
   };
 
   system = {
+    primaryUser = "thebitstick";
     defaults = {
       NSGlobalDomain = {
         AppleICUForce24HourTime = true;
