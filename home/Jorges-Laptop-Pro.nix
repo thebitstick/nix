@@ -10,6 +10,7 @@
     nixpkgs-fmt
     scrcpy
     yt-dlp
+    ani-cli
 
     # Programming Languages
     cargo

@@ -89,6 +89,7 @@
     imagemagick
     nixpkgs-fmt
     yt-dlp
+    ani-cli
 
     # Programming Languages
     cargo
