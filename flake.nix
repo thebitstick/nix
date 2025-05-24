@@ -17,7 +17,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = inputs@{ self, nixpkgs, nixos-hardware, darwin, home-manager, nix-minecraft, ... }: {
+  outputs = inputs@{ self, nixpkgs, nixos-hardware, darwin, home-manager, ... }: {
     darwinConfigurations = {
       "Jorges-Laptop-Pro" = darwin.lib.darwinSystem {
         system = "aarch64-darwin";
