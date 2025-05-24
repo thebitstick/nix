@@ -59,7 +59,7 @@
 
     variables = {
       EDITOR = "nvim";
-      VISUAL = "zeditor";
+      VISUAL = "nvim";
     };
   };
 

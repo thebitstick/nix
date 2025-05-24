@@ -46,7 +46,8 @@
         "org.gnome.Nautilus.desktop"
         "firefox.desktop"
         "discord.desktop"
-        "steam.desktop""org.gnome.Console.desktop"
+        "steam.desktop"
+        "org.gnome.Console.desktop"
         "zed.desktop"
       ];
       last-selected-power-profile = "performance";

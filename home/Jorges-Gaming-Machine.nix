@@ -42,7 +42,6 @@
         "org.gnome.Nautilus.desktop"
         "steam.desktop"
         "org.gnome.Console.desktop"
-        "zed.desktop"
       ];
       last-selected-power-profile = "performance";
     };
@@ -77,31 +76,7 @@
   };
 
   home.packages = with pkgs; [
-    # Terminal Utilities
-    fastfetch
-    ffmpeg
-    imagemagick
-    nixpkgs-fmt
-    yt-dlp
-
-    # Programming Languages
-    cargo
-    rustc
-
-    # Graphical Apps
-    baobab
-    celluloid
-    # cura # broken python packages?
-    discord
-    firefox
-    obs-studio
-    openscad
-    protonvpn-gui
-    transmission_4-gtk
-
     # Gaming Apps
-    prismlauncher
-    tetrio-desktop
     torzu
   ];
 
@@ -139,39 +114,6 @@
         editv = "zeditor";
         sedit = "sudo nvim";
         edit = "nvim";
-      };
-    };
-    zed-editor = {
-      enable = true;
-      extensions = [
-        "html"
-        "lua"
-        "swift"
-        "nix"
-      ];
-      userSettings = {
-        features = {
-          copilot = false;
-        };
-        collaboration_panel = {
-          button = false;
-        };
-        chat_panel = {
-          button = false;
-        };
-        notification_panel = {
-          button = false;
-        };
-        assistant = {
-          button = false;
-        };
-        telemetry = {
-          metrics = false;
-        };
-        base_keymap = "VSCode";
-        theme = "Atelier Lakeside Dark";
-        ui_font_size = 16;
-        buffer_font_size = 16;
       };
     };
   };

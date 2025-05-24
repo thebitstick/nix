@@ -9,6 +9,7 @@
       neovim
       nmap
       wget
+      file
 
       # Terminal Replacement Utilities
       bat
