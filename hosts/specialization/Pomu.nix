@@ -65,6 +65,11 @@
           enableACME = true;
           root = "/var/www/huicochea.moe";
         };
+        "whitehouse.rip" = {
+          forceSSL = true;
+          enableACME = true;
+          root = "/var/www/whitehouse.rip";
+        };
         "www.bitstick.rip" = {
           forceSSL = true;
           enableACME = true;
@@ -75,21 +80,32 @@
           enableACME = true;
           globalRedirect = "huicochea.moe";
         };
+        "www.whitehouse.rip" = {
+          forceSSL = true;
+          enableACME = true;
+          globalRedirect = "whitehouse.rip";
+        };
       };
     };
-    minecraft-server = {
+    minecraft-servers = {
       enable = true;
       eula = true;
       openFirewall = true;
-      declarative = true;
-      serverProperties = {
-        server-port = 25565;
-        gamemode = "survival";
-        motd = "\\u00a7l\\u00a7o\\u00a7nDeclarative Server\\u00a7r\\u00a7l\\u00a7n powered by NixOS";
-        max-players = 5;
-        level-seed = "nixos";
-        enable-rcon = true;
-        "rcon.password" = "nixos";
+
+      servers.vanilla = {
+        enable = true;
+
+        serverProperties = {
+          server-port = 25565;
+          gamemode = "survival";
+          motd = "\\u00a7l\\u00a7o\\u00a7nDeclarative Server\\u00a7r\\u00a7l\\u00a7n powered by NixOS";
+          max-players = 5;
+          level-seed = "nixos";
+          enable-rcon = true;
+          "rcon.password" = "nixos";
+        };
+
+        package = pkgs.minecraftServers.vanilla-server;
       };
     };
     openssh = {

@@ -37,16 +37,11 @@
         "places-menu@gnome-shell-extensions.gcampax.github.com"
         "system-monitor@gnome-shell-extensions.gcampax.github.com"
         "status-icons@gnome-shell-extensions.gcampax.github.com"
-
-        # Home Manager Extensions
-        "clipboard-indicator@tudmotu.com"
-        "windowIsReady_Remover@nunofarruca@gmail.com"
       ];
       favorite-apps = [
         "org.gnome.Nautilus.desktop"
-        "firefox.desktop"
-        "discord.desktop"
-        "steam.desktop""org.gnome.Console.desktop"
+        "steam.desktop"
+        "org.gnome.Console.desktop"
         "zed.desktop"
       ];
       last-selected-power-profile = "performance";
@@ -92,10 +87,6 @@
     # Programming Languages
     cargo
     rustc
-
-    # GNOME Extensions
-    gnomeExtensions.clipboard-indicator
-    gnomeExtensions.window-is-ready-remover
 
     # Graphical Apps
     baobab
