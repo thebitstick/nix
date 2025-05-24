@@ -15,8 +15,6 @@
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-
-    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
   };
 
   outputs = inputs@{ self, nixpkgs, nixos-hardware, darwin, home-manager, nix-minecraft, ... }: {
@@ -79,10 +77,6 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.admin = import ./home/Pomu.nix;
-          }
-          nix-minecraft.nixosModules.minecraft-servers
-	  {
-	    nixpkgs.overlays = [ inputs.nix-minecraft.overlay ];
           }
         ];
       };
