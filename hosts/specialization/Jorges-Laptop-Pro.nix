@@ -29,6 +29,7 @@
       # macOS Background Apps (always-on)
       "alcove"
       "aldente"
+      "altserver"
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
