@@ -70,32 +70,33 @@
 
     masApps = {
       # Apple Apps
-      "Keynote" = 409183694;
-      "Pages" = 409201541;
-      "Numbers" = 409203825;
-      "Xcode" = 497799835;
-      "iMovie" = 408981434;
       "Apple Configurator" = 1037126344;
+      "iMovie" = 408981434;
+      "Keynote" = 409183694;
+      "Numbers" = 409203825;
+      "Pages" = 409201541;
+      "Xcode" = 497799835;
 
       # Safari Extensions
-      "SponsorBlock" = 1573461917;
+
       "10ten Japanese Reader" = 1573540634;
-      "Dark Reader for Safari" = 1438243180;
-      "Bitwarden" = 1352778147;
       "AdGuard for Safari" = 1440147259;
+      "Bitwarden" = 1352778147;
+      "Dark Reader for Safari" = 1438243180;
+      "SponsorBlock" = 1573461917;
 
       # Microsoft Apps
-      "Microsoft Word" = 462054704;
       "Microsoft Excel" = 462058435;
       "Microsoft Outlook" = 985367838;
       "Microsoft To Do" = 1274495053;
+      "Microsoft Word" = 462054704;
       "OneDrive" = 823766827;
       "Windows App" = 1295203466;
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "Canva" = 897446215;
-      "Console Link" = 6448843682;
+      "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
       "VIGIL Client Lite" = 1387350823;
