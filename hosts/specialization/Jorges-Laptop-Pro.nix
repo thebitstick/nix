@@ -28,7 +28,6 @@
     casks = [
       # macOS Background Apps (always-on)
       "alcove"
-      "aldente"
       "altserver"
       # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
@@ -42,6 +41,7 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
+      "arc"
       "crossover"
       "discord"
       "grandperspective"
