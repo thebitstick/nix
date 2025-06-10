@@ -27,16 +27,13 @@
     caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
-      "alcove"
-      "altserver"
-      # "immersed" # not on Homebrew yet
       "itsycal" # no built-in multi-month calendar in macOS
-      "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 15
-      "ollama"
+      "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "protonvpn" # work Wi-Fi sucks
-      "raycast"
 
       # macOS Background Apps
+      "altserver"
+      # 'immersed' # not on Homebrew yet
       "keka" # Archive Utility isn't very good
       "mountain-duck" # Finder FTP is only read-only
 
@@ -46,8 +43,8 @@
       "discord"
       "grandperspective"
       "iina"
-      "keepassxc"
       "keyboardcleantool"
+      "macpass"
       "musicbrainz-picard"
       "netnewswire"
       "nvidia-geforce-now"
@@ -56,7 +53,6 @@
       "orion"
       "prismlauncher"
       "sensei"
-      "steam"
       "transmission"
       "ultimaker-cura"
       "zen"
@@ -78,12 +74,7 @@
       "Xcode" = 497799835;
 
       # Safari Extensions
-
-      "10ten Japanese Reader" = 1573540634;
-      "AdGuard for Safari" = 1440147259;
       "Bitwarden" = 1352778147;
-      "Dark Reader for Safari" = 1438243180;
-      "SponsorBlock" = 1573461917;
 
       # Microsoft Apps
       "Microsoft Excel" = 462058435;
@@ -135,13 +126,16 @@
         show-recents = false;
         tilesize = 40;
         persistent-apps = [
-          # Work
+	  "/System/Applications/Apps.app"
+
+	  # Work
           "/Applications/Canva.app"
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
           "/Applications/VIGIL Client Lite.app"
 
-          # Main
+	  # Main
+	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
           "/System/Applications/Calendar.app"
 	  "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
