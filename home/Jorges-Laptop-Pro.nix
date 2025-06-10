@@ -35,7 +35,7 @@
       $env.config.show_banner = false
 
       $env.EDITOR = "nvim"
-      $env.VISUAL = "zed"
+      $env.VISUAL = "nvim"
 
       $env.PATH = ($env.PATH | split row (char esep) |
         prepend '/usr/local/bin' |
@@ -68,7 +68,6 @@
       }
       '';
       shellAliases = {
-        open = "^open";
         mkdir = "^mkdir";
         cat = "bat --plain --paging=never";
         editv = "zed";
