@@ -53,6 +53,7 @@
       "orion"
       "prismlauncher"
       "sensei"
+      "sidequest"
       "transmission"
       "ultimaker-cura"
       "zen"
@@ -105,9 +106,9 @@
         ApplePressAndHoldEnabled = true;
         AppleShowAllExtensions = true;
         AppleShowScrollBars = "Automatic";
-        AppleMeasurementUnits = "Centimeters";
-        AppleMetricUnits = 1;
-        AppleTemperatureUnit = "Celsius";
+        AppleMeasurementUnits = "Inches";
+        AppleMetricUnits = 0;
+        AppleTemperatureUnit = "Fahrenheit";
         AppleWindowTabbingMode = "always";
         InitialKeyRepeat = 25;
         KeyRepeat = 5;
@@ -136,6 +137,7 @@
 
 	  # Main
 	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
           "/System/Applications/Calendar.app"
 	  "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
@@ -148,7 +150,6 @@
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
           "/System/Applications/Utilities/Terminal.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
         ];
       };
 
