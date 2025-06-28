@@ -42,6 +42,7 @@
       "crossover"
       "discord"
       "grandperspective"
+      "hex-fiend"
       "iina"
       "keyboardcleantool"
       "macpass"
@@ -91,7 +92,9 @@
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
-      "VIGIL Client Lite" = 1387350823;
+
+      # iPad Apps
+      "3xLOGIC View Lite II" = 989490756;
 
       # Background Apps
       "Tailscale" = 1475387142;
@@ -133,7 +136,7 @@
           "/Applications/Canva.app"
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
-          "/Applications/VIGIL Client Lite.app"
+          "/Applications/View Lite II.app"
 
 	  # Main
 	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
@@ -143,6 +146,7 @@
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/System/Applications/Home.app"
+	  "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
           "/System/Applications/Messages.app"
           "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
