@@ -51,10 +51,10 @@
       "nvidia-geforce-now"
       "obs"
       "openscad" # not notarized
-      "orion"
       "prismlauncher"
       "sensei"
       "sidequest"
+      "steam"
       "transmission"
       "ultimaker-cura"
       "zen"
@@ -73,6 +73,7 @@
       "Keynote" = 409183694;
       "Numbers" = 409203825;
       "Pages" = 409201541;
+      "TestFlight" = 899247664;
       "Xcode" = 497799835;
 
       # Safari Extensions
