@@ -185,7 +185,7 @@
           button = false;
         };
         base_keymap = "VSCode";
-        theme = "Ayu Light";
+        theme = "Ayu Dark";
         ui_font_size = 16;
         buffer_font_size = 16;
         restore_on_startup = "last_session";

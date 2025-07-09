@@ -96,6 +96,8 @@
 
       # iPad Apps
       "3xLOGIC View Lite II" = 989490756;
+      "CARROT" = 961390574;
+      "Wyze" = 1288415553;
 
       # Background Apps
       "Tailscale" = 1475387142;
