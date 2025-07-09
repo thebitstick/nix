@@ -192,5 +192,5 @@
 
   security.pam.services.sudo_local.touchIdAuth = true;
 
-  system.stateVersion = 4;
+  system.stateVersion = 5;
 }
