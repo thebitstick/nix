@@ -38,6 +38,7 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
+      "android-file-transfer"
       "arc"
       "crossover"
       "discord"
@@ -139,7 +140,6 @@
           "/Applications/Canva.app"
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
-          "/Applications/View Lite II.app"
 
 	  # Main
 	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
