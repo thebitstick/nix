@@ -39,7 +39,6 @@
 
       # macOS Graphical Apps
       "android-file-transfer"
-      "arc"
       "crossover"
       "discord"
       "grandperspective"
@@ -58,6 +57,10 @@
       "steam"
       "transmission"
       "ultimaker-cura"
+
+      # macOS Web Browsers
+      "arc"
+      "orion"
       "zen"
 
       # macOS Dev Apps
