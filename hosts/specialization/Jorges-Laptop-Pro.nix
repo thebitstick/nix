@@ -54,6 +54,7 @@
       "arc"
       "orion"
       "zen"
+      "zen@twilight"
 
       # macOS Gaming
       "crossover"
