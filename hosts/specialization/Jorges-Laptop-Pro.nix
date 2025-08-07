@@ -29,7 +29,6 @@
       # macOS Background Apps (always-on)
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
-      "protonvpn" # work Wi-Fi sucks
 
       # macOS Background Apps
       "altserver"
