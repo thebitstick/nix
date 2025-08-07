@@ -68,7 +68,7 @@
       # macOS Dev Apps
       "arduino-ide"
       "hex-fiend"
-      "ollama"
+      "ollama-app"
       "playdate-mirror"
       "playdate-simulator"
       "zed"
