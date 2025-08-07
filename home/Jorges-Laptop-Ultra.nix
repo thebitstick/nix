@@ -102,12 +102,11 @@
     # Graphical Apps
     baobab
     celluloid
-    # cura # broken python packages?
+    cura # broken python packages?
     discord
     firefox
     obs-studio
     openscad
-    protonvpn-gui
     transmission_4-gtk
 
     # Gaming Apps

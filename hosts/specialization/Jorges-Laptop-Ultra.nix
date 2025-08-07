@@ -96,7 +96,7 @@
 
   services = {
     flatpak.enable = true;
-    fprintd.enable = true;
+    fprintd.enable = false;
     fwupd.enable = true;
     libinput = {
       enable = true;
@@ -112,8 +112,6 @@
       alsa.support32Bit = true;
       pulse.enable = true;
     };
-    qemuGuest.enable = true;
-    spice-vdagentd.enable = true;
     tailscale = {
       enable = true;
       useRoutingFeatures = "client";

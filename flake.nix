@@ -1,9 +1,8 @@
 {
   description = ''
     Nix Configurations for
-      Jorge's Laptop Pro (MacBook Pro 14),
-      Jorge's Laptop Ultra (imaginary Linux laptop)
-      Jorge's Gaming Machine (Framework 13) and
+      Jorge's Laptop Pro (MacBook Pro 16" M4 Pro),
+      Jorge's Laptop Ultra (Framework 13 AMD) and
       Pomu (my Linux RockPro64 server)
   '';
 
@@ -47,22 +46,6 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
             home-manager.users.thebitstick = import ./home/Jorges-Laptop-Ultra.nix;
-          }
-        ];
-      };
-      "Jorges-Gaming-Machine" = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        specialArgs = { inherit inputs; };
-        modules = [
-          ./configuration.nix
-          ./hosts/hardware-configuration/Jorges-Gaming-Machine.nix
-          ./hosts/specialization/Jorges-Gaming-Machine.nix
-          nixos-hardware.nixosModules.framework-13-7040-amd
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.thebitstick = import ./home/Jorges-Gaming-Machine.nix;
           }
         ];
       };
