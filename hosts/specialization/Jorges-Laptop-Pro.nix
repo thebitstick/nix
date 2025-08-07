@@ -103,6 +103,8 @@
 
       # Games
       "DeathStranding" = 6449748961;
+      #"Resident Evil 4" = 6462360082;
+      #"Resident Evil Village" = 1640627334;
 
       # iPad Apps
       #"3xLOGIC View Lite II" = 989490756;
