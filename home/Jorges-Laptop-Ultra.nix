@@ -102,7 +102,7 @@
     # Graphical Apps
     baobab
     celluloid
-    cura # broken python packages?
+    # cura # broken python packages?
     discord
     firefox
     obs-studio
