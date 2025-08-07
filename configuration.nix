@@ -8,7 +8,7 @@
       inetutils
       neovim
       nmap
-      wget
+      wcurl
       file
 
       # Terminal Replacement Utilities

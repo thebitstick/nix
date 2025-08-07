@@ -73,6 +73,7 @@
         editv = "zed";
         sedit = "sudo nvim";
         edit = "nvim";
+        wget = "wcurl";
       };
     };
   };

@@ -84,10 +84,12 @@
 
   home.packages = with pkgs; [
     # Terminal Utilities
+    android-tools
     fastfetch
     ffmpeg
     imagemagick
     nixpkgs-fmt
+    scrcpy
     yt-dlp
     ani-cli
 
@@ -99,17 +101,17 @@
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.window-is-ready-remover
 
-    # Graphical Apps
+    # NixOS Graphical Apps
     baobab
     celluloid
     # cura # broken python packages?
     discord
     firefox
-    obs-studio
     openscad
     transmission_4-gtk
 
-    # Gaming Apps
+    # NixOS Gaming Apps
+    obs-studio
     prismlauncher
     tetrio-desktop
   ];
@@ -148,6 +150,7 @@
         editv = "zeditor";
         sedit = "sudo nvim";
         edit = "nvim";
+        wget = "wcurl";
       };
     };
     zed-editor = {

@@ -60,25 +60,25 @@
           enableACME = true;
           root = "/var/www/bitstick.rip";
         };
-        "huicochea.moe" = {
-          forceSSL = true;
-          enableACME = true;
-          root = "/var/www/huicochea.moe";
-        };
-        "whitehouse.rip" = {
-          forceSSL = true;
-          enableACME = true;
-          root = "/var/www/whitehouse.rip";
-        };
         "www.bitstick.rip" = {
           forceSSL = true;
           enableACME = true;
           globalRedirect = "bitstick.rip";
         };
+        "huicochea.moe" = {
+          forceSSL = true;
+          enableACME = true;
+          root = "/var/www/huicochea.moe";
+        };
         "www.huicochea.moe" = {
           forceSSL = true;
           enableACME = true;
           globalRedirect = "huicochea.moe";
+        };
+        "whitehouse.rip" = {
+          forceSSL = true;
+          enableACME = true;
+          root = "/var/www/whitehouse.rip";
         };
         "www.whitehouse.rip" = {
           forceSSL = true;
