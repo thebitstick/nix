@@ -8,6 +8,7 @@
       inetutils
       neovim
       nmap
+      curl
       file
 
       # Terminal Replacement Utilities
