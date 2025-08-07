@@ -41,7 +41,6 @@
       "android-file-transfer"
       "discord"
       "grandperspective"
-      "hex-fiend"
       "iina"
       "keyboardcleantool"
       "macpass"
@@ -51,6 +50,7 @@
       "sensei"
       "transmission"
       "ultimaker-cura"
+      "utm"
 
       # macOS Web Browsers
       "arc"
@@ -68,6 +68,7 @@
 
       # macOS Dev Apps
       "arduino-ide"
+      "hex-fiend"
       "playdate-mirror"
       "playdate-simulator"
       "zed"
