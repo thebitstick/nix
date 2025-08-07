@@ -37,7 +37,6 @@
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
-      "android-file-transfer"
       "discord"
       "grandperspective"
       "iina"
