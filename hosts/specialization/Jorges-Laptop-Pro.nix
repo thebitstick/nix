@@ -39,7 +39,6 @@
 
       # macOS Graphical Apps
       "android-file-transfer"
-      "crossover"
       "discord"
       "grandperspective"
       "hex-fiend"
@@ -48,13 +47,8 @@
       "macpass"
       "musicbrainz-picard"
       "netnewswire"
-      "nvidia-geforce-now"
-      "obs"
       "openscad" # not notarized
-      "prismlauncher"
       "sensei"
-      "sidequest"
-      "steam"
       "transmission"
       "ultimaker-cura"
 
@@ -62,6 +56,15 @@
       "arc"
       "orion"
       "zen"
+
+      # macOS Gaming
+      "crossover"
+      "nvidia-geforce-now"
+      "obs"
+      "prismlauncher"
+      "roblox"
+      "sidequest"
+      "steam"
 
       # macOS Dev Apps
       "arduino-ide"
