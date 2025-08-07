@@ -2,8 +2,8 @@
 
 This repository contains configurations for:
 
-- my MacBook Pro 14 "Jorges-Laptop-Pro",
-- my Framework 13 "Jorges-Laptop-Ultra" and
+- my MacBook Pro 16" M4 Pro "Jorges-Laptop-Pro",
+- my Framework 13 AMD "Jorges-Laptop-Ultra" and
 - my RockPro64 Linux server "Pomu"
 
 ## Jorges-Laptop-Pro (Nix-Darwin aarch64 standard)
