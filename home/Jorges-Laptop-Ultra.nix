@@ -113,7 +113,6 @@
     # Gaming Apps
     prismlauncher
     tetrio-desktop
-    torzu
   ];
 
   programs = {
@@ -174,7 +173,7 @@
           button = false;
         };
         agent = {
-          version = "2"
+          version = "2";
           enabled = false;
         };
         telemetry = {
