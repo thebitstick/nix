@@ -80,11 +80,11 @@
       "Keynote" = 409183694;
       "Numbers" = 409203825;
       "Pages" = 409201541;
-      "TestFlight" = 899247664;
       "Xcode" = 497799835;
 
       # Safari Extensions
       "Bitwarden" = 1352778147;
+      "uBlock Origin Lite" = 6745342698;
 
       # Microsoft Apps
       "Microsoft Excel" = 462058435;
@@ -100,6 +100,9 @@
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
+
+      # Games
+      "DeathStranding" = 6449748961;
 
       # iPad Apps
       #"3xLOGIC View Lite II" = 989490756;
@@ -149,7 +152,7 @@
 
 	  # Main
 	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
           "/System/Applications/Calendar.app"
 	  "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
