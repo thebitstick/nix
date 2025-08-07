@@ -56,7 +56,7 @@
       "zen"
       "zen@twilight"
 
-      # macOS Gaming
+      # macOS Gaming Apps
       "crossover"
       "nvidia-geforce-now"
       "obs"
@@ -68,6 +68,7 @@
       # macOS Dev Apps
       "arduino-ide"
       "hex-fiend"
+      "ollama"
       "playdate-mirror"
       "playdate-simulator"
       "zed"
