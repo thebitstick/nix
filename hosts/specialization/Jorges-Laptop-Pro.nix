@@ -101,6 +101,7 @@
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
+      "VIGIL Client Lite" = 1387350823;
 
       # Games
       "DeathStranding" = 6449748961;
@@ -108,7 +109,6 @@
       #"Resident Evil Village" = 1640627334;
 
       # iPad Apps
-      #"3xLOGIC View Lite II" = 989490756;
       #"CARROT" = 961390574;
       #"Wyze" = 1288415553;
 
