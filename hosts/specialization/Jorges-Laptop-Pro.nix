@@ -29,6 +29,7 @@
       # macOS Background Apps (always-on)
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
+      "rewind" # (deprecated) that sign can't stop me because I can't read
 
       # macOS Background Apps
       "altserver"
@@ -49,11 +50,6 @@
       "transmission"
       "ultimaker-cura"
       "utm"
-
-      # macOS Web Browsers
-      "arc"
-      "orion"
-      "zen"
       "zen@twilight"
 
       # macOS Gaming Apps
@@ -154,7 +150,6 @@
           "/Applications/Microsoft To Do.app"
 
 	  # Main
-	  "/Users/thebitstick/Applications/Homebrew Apps/Arc.app"
 	  "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
           "/System/Applications/Calendar.app"
 	  "/Applications/ConsoleLink.app"
