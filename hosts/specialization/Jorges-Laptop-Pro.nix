@@ -93,7 +93,6 @@
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
-      "Canva" = 897446215;
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
