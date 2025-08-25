@@ -63,6 +63,7 @@
 
       # macOS Dev Apps
       "arduino-ide"
+      "base"
       "hex-fiend"
       "ollama-app"
       "playdate-mirror"
@@ -144,9 +145,9 @@
 	  "/System/Applications/Apps.app"
 
 	  # Work
-          "/Applications/Canva.app"
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
+	  "/Applications/VIGIL Client Lite.app"
 
 	  # Main
 	  "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
