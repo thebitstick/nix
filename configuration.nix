@@ -4,6 +4,7 @@
   environment = {
     systemPackages = with pkgs; [
       # Terminal Utilities
+      fastfetch
       btop
       inetutils
       neovim

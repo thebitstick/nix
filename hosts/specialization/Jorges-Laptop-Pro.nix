@@ -64,6 +64,7 @@
       # macOS Dev Apps
       "arduino-ide"
       "base"
+      "cool-retro-term" # (deprecated) that sign can't stop me because I can't read
       "hex-fiend"
       "ollama-app"
       "playdate-mirror"
@@ -163,7 +164,8 @@
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
-          "/System/Applications/Utilities/Terminal.app"
+          #"/System/Applications/Utilities/Terminal.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
         ];
       };
 

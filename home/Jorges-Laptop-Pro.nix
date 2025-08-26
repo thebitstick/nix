@@ -4,7 +4,6 @@
   home.packages = with pkgs; [
     # Terminal Utilities
     android-tools
-    fastfetch
     ffmpeg
     imagemagick
     nixpkgs-fmt
