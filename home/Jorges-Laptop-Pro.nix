@@ -1,35 +1,10 @@
 { config, pkgs, ... }:
 
 {
-  home.packages = with pkgs; [
-    # Terminal Utilities
-    android-tools
-    ffmpeg
-    imagemagick
-    nixpkgs-fmt
-    scrcpy
-    yt-dlp
-    ani-cli
-
-    # Programming Languages
-    cargo
-    rustc
-  ];
+  imports = [(./Home.nix)];
 
   programs = {
-    git = {
-        enable = true;
-        userName = "TheBitStick";
-        userEmail = "the@bitstick.rip";
-    };
-    neovim = {
-      enable = true;
-      viAlias = true;
-      vimAlias = true;
-      defaultEditor = true;
-    };
     nushell = {
-      enable = true;
       extraConfig = ''
       $env.config.show_banner = false
 
@@ -68,11 +43,7 @@
       '';
       shellAliases = {
         mkdir = "^mkdir";
-        cat = "bat --plain --paging=never";
         editv = "zed";
-        sedit = "sudo nvim";
-        edit = "nvim";
-        wget = "wcurl";
       };
     };
   };

@@ -1,20 +1,10 @@
 { config, pkgs, ... }:
 
 {
+  imports = [(./Home.nix)];
+
   programs = {
-    git = {
-        enable = true;
-        userName = "TheBitStick";
-        userEmail = "the@bitstick.rip";
-    };
-    neovim = {
-      enable = true;
-      viAlias = true;
-      vimAlias = true;
-      defaultEditor = true;
-    };
     nushell = {
-      enable = true;
       extraConfig = ''
       $env.config.show_banner = false
 
@@ -30,11 +20,6 @@
           git clone $url
       }
       '';
-      shellAliases = {
-        cat = "bat --plain --paging=never";
-        sedit = "sudo nvim";
-        edit = "nvim";
-      };
     };
   };
 

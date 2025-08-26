@@ -4,13 +4,20 @@
   environment = {
     systemPackages = with pkgs; [
       # Terminal Utilities
-      fastfetch
+      android-tools
+      ani-cli
       btop
+      curl
+      fastfetch
+      ffmpeg
+      file
+      imagemagick
       inetutils
       neovim
+      nixpkgs-fmt
       nmap
-      curl
-      file
+      scrcpy
+      yt-dlp
 
       # Terminal Replacement Utilities
       bat
@@ -18,6 +25,10 @@
       duf
       eza
       fd
+
+      # Programming Languages
+      cargo
+      rustc
     ];
   };
 

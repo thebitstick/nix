@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  imports = [(./Home.nix)];
+
   dconf.settings = {
     "org/gnome/desktop/background" = {
       color-shading-type = "solid";
@@ -83,19 +85,6 @@
   };
 
   home.packages = with pkgs; [
-    # Terminal Utilities
-    android-tools
-    ffmpeg
-    imagemagick
-    nixpkgs-fmt
-    scrcpy
-    yt-dlp
-    ani-cli
-
-    # Programming Languages
-    cargo
-    rustc
-
     # GNOME Extensions
     gnomeExtensions.clipboard-indicator
     gnomeExtensions.window-is-ready-remover
@@ -116,19 +105,7 @@
   ];
 
   programs = {
-    git = {
-        enable = true;
-        userName = "TheBitStick";
-        userEmail = "the@bitstick.rip";
-    };
-    neovim = {
-      enable = true;
-      viAlias = true;
-      vimAlias = true;
-      defaultEditor = true;
-    };
     nushell = {
-      enable = true;
       extraConfig = ''
       $env.config.show_banner = false
 
@@ -145,11 +122,7 @@
       }
       '';
       shellAliases = {
-        cat = "bat --plain --paging=never";
         editv = "zeditor";
-        sedit = "sudo nvim";
-        edit = "nvim";
-        wget = "wcurl";
       };
     };
     zed-editor = {
