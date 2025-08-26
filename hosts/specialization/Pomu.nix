@@ -26,11 +26,11 @@
   };
 
   users.users.admin = {
-      isNormalUser = true;
-      extraGroups = [ "wheel" ];
-      description = "Administrator";
-      shell = pkgs.nushell;
-    };
+    isNormalUser = true;
+    extraGroups = [ "wheel" ];
+    description = "Administrator";
+    shell = pkgs.nushell;
+  };
 
   time.timeZone = "America/Chicago";
   i18n.defaultLocale = "en_US.UTF-8";

@@ -143,21 +143,21 @@
         show-recents = false;
         tilesize = 40;
         persistent-apps = [
-	  "/System/Applications/Apps.app"
+          "/System/Applications/Apps.app"
 
-	  # Work
+          # Work
           "/Applications/Microsoft Outlook.app"
           "/Applications/Microsoft To Do.app"
-	  "/Applications/VIGIL Client Lite.app"
+          "/Applications/VIGIL Client Lite.app"
 
-	  # Main
-	  "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
+          # Main
+          "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
           "/System/Applications/Calendar.app"
-	  "/Applications/ConsoleLink.app"
+          "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/System/Applications/Home.app"
-	  "/System/Applications/Journal.app"
+          "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
           "/System/Applications/Messages.app"
           "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
@@ -165,8 +165,8 @@
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
           #"/System/Applications/Utilities/Terminal.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
         ];
       };
 

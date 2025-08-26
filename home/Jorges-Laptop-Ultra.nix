@@ -1,7 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [(./Home.nix)];
+  imports = [ ./Home.nix ];
 
   dconf.settings = {
     "org/gnome/desktop/background" = {
@@ -107,19 +107,19 @@
   programs = {
     nushell = {
       extraConfig = ''
-      $env.config.show_banner = false
+        $env.config.show_banner = false
 
-      $env.EDITOR = "nvim"
-      $env.VISUAL = "zeditor"
+        $env.EDITOR = "nvim"
+        $env.VISUAL = "zeditor"
 
-      def clean [] {
-          nix-collect-garbage -d
-      }
+        def clean [] {
+            nix-collect-garbage -d
+        }
 
-      def gc [url] {
-          cd ~/Developer/Git
-          git clone $url
-      }
+        def gc [url] {
+            cd ~/Developer/Git
+            git clone $url
+        }
       '';
       shellAliases = {
         editv = "zeditor";
@@ -134,9 +134,6 @@
         "nix"
       ];
       userSettings = {
-        features = {
-          copilot = false;
-        };
         collaboration_panel = {
           button = false;
         };

@@ -1,4 +1,9 @@
-{ config, lib, pkgs, ... }:
+{
+  config,
+  lib,
+  pkgs,
+  ...
+}:
 
 {
   environment = {
@@ -14,7 +19,6 @@
       imagemagick
       inetutils
       neovim
-      nixpkgs-fmt
       nmap
       scrcpy
       yt-dlp
@@ -28,6 +32,9 @@
 
       # Programming Languages
       cargo
+      nil
+      nixpkgs-fmt
+      nixd
       rustc
     ];
   };
@@ -40,6 +47,9 @@
       automatic = true;
       options = "--delete-older-than 7d";
     };
-    settings.experimental-features = [ "nix-command" "flakes" ];
+    settings.experimental-features = [
+      "nix-command"
+      "flakes"
+    ];
   };
 }

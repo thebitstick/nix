@@ -3,9 +3,9 @@
 {
   programs = {
     git = {
-        enable = true;
-        userName = "TheBitStick";
-        userEmail = "the@bitstick.rip";
+      enable = true;
+      userName = "TheBitStick";
+      userEmail = "the@bitstick.rip";
     };
     neovim = {
       enable = true;
