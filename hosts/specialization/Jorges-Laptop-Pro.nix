@@ -65,6 +65,7 @@
       "arduino-ide"
       "base"
       "cool-retro-term" # (deprecated) that sign can't stop me because I can't read
+      "crystalfetch"
       "hex-fiend"
       "ollama-app"
       "playdate-mirror"
@@ -102,6 +103,7 @@
 
       # Games
       "DeathStranding" = 6449748961;
+      "Mini Metro" = 1047760200;
       #"Resident Evil 4" = 6462360082;
       #"Resident Evil Village" = 1640627334;
 
