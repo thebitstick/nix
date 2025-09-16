@@ -137,22 +137,12 @@
         collaboration_panel = {
           button = false;
         };
-        chat_panel = {
-          button = "never";
-        };
         notification_panel = {
           button = false;
-        };
-        agent = {
-          version = "2";
-          enabled = false;
         };
         telemetry = {
           diagnostics = false;
           metrics = false;
-        };
-        outline_panel = {
-          button = false;
         };
         base_keymap = "VSCode";
         theme = "Ayu Dark";
