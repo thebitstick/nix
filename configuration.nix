@@ -31,11 +31,13 @@
       fd
 
       # Programming Languages
+      bun
       cargo
       nil
       nixpkgs-fmt
       nixd
       rustc
+      zig
     ];
   };
 
