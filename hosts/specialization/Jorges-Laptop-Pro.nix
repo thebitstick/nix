@@ -166,9 +166,10 @@
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
-          #"/System/Applications/Utilities/Terminal.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
+	  "/System/Applications/Utilities/Terminal.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
+	  "/System/Applications/iPhone Mirroring.app"
         ];
       };
 
