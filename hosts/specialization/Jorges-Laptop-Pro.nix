@@ -45,10 +45,8 @@
       "macpass"
       "musicbrainz-picard"
       "netnewswire"
-      "openscad" # not notarized
       "sensei"
       "transmission"
-      "ultimaker-cura"
       "utm"
       "zen@twilight"
 
@@ -64,7 +62,6 @@
       # macOS Dev Apps
       "arduino-ide"
       "base"
-      "cool-retro-term" # (deprecated) that sign can't stop me because I can't read
       "crystalfetch"
       "hex-fiend"
       "ollama-app"
@@ -75,7 +72,6 @@
 
     masApps = {
       # Apple Apps
-      "Apple Configurator" = 1037126344;
       "iMovie" = 408981434;
       "Keynote" = 409183694;
       "Numbers" = 409203825;
@@ -86,20 +82,11 @@
       "Bitwarden" = 1352778147;
       "uBlock Origin Lite" = 6745342698;
 
-      # Microsoft Apps
-      "Microsoft Excel" = 462058435;
-      "Microsoft Outlook" = 985367838;
-      "Microsoft To Do" = 1274495053;
-      "Microsoft Word" = 462054704;
-      "OneDrive" = 823766827;
-      "Windows App" = 1295203466;
-
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
       "Steam Link" = 1246969117;
-      "VIGIL Client Lite" = 1387350823;
 
       # Games
       "DeathStranding" = 6449748961;
@@ -142,15 +129,10 @@
         minimize-to-application = false;
         mru-spaces = false;
         orientation = "bottom";
-        show-recents = false;
+        show-recents = true;
         tilesize = 40;
         persistent-apps = [
           "/System/Applications/Apps.app"
-
-          # Work
-          "/Applications/Microsoft Outlook.app"
-          "/Applications/Microsoft To Do.app"
-          "/Applications/VIGIL Client Lite.app"
 
           # Main
           "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
@@ -167,7 +149,6 @@
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
 	  "/System/Applications/Utilities/Terminal.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/cool-retro-term.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
 	  "/System/Applications/iPhone Mirroring.app"
         ];
