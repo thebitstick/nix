@@ -63,11 +63,11 @@
       "arduino-ide"
       "base"
       "crystalfetch"
+      "ghostty"
       "hex-fiend"
       "ollama-app"
       "playdate-mirror"
       "playdate-simulator"
-      "rio"
       "zed"
     ];
 
@@ -148,7 +148,7 @@
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
-	  "/System/Applications/Utilities/Terminal.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
 	  "/System/Applications/iPhone Mirroring.app"
         ];
