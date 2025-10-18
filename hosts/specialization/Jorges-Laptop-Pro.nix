@@ -67,6 +67,7 @@
       "ollama-app"
       "playdate-mirror"
       "playdate-simulator"
+      "rio"
       "zed"
     ];
 
@@ -86,7 +87,6 @@
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
-      "Steam Link" = 1246969117;
 
       # Games
       "DeathStranding" = 6449748961;
