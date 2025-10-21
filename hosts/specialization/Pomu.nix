@@ -75,6 +75,11 @@
           enableACME = true;
           globalRedirect = "huicochea.moe";
         };
+	"alberto.huicochea.moe" = {
+	  forceSSL = true;
+	  enableACME = true;
+	  globalRedirect = "https://www.gofundme.com/f/support-betos-road-to-recovery";
+	};
         "whitehouse.rip" = {
           forceSSL = true;
           enableACME = true;
