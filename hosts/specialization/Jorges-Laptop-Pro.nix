@@ -132,14 +132,13 @@
         show-recents = true;
         tilesize = 40;
         persistent-apps = [
-          "/System/Applications/Apps.app"
-
-          # Main
-          "/Users/thebitstick/Applications/Homebrew Apps/Twilight.app"
+          "/System/Applications/iPhone Mirroring.app"
+	  "/System/Applications/Apps.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
@@ -148,9 +147,8 @@
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
-	  "/System/Applications/iPhone Mirroring.app"
+	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
         ];
       };
 
