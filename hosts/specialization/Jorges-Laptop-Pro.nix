@@ -29,15 +29,15 @@
       # macOS Background Apps (always-on)
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
-      "rewind" # (deprecated) that sign can't stop me because I can't read
 
       # macOS Background Apps
       "altserver"
       # 'immersed' # not on Homebrew yet
-      "keka" # Archive Utility isn't very good
+      "keka"
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Graphical Apps
+      "cog-app"
       "discord"
       "grandperspective"
       "iina"
@@ -133,12 +133,12 @@
         tilesize = 40;
         persistent-apps = [
           "/System/Applications/iPhone Mirroring.app"
-	  "/System/Applications/Apps.app"
+          "/System/Applications/Apps.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
@@ -148,7 +148,7 @@
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
           "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
-	  "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
+          "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
         ];
       };
 
