@@ -48,7 +48,7 @@
       "sensei"
       "transmission"
       "utm"
-      "zen@twilight"
+      "zen"
 
       # macOS Gaming Apps
       "crossover"
