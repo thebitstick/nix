@@ -25,7 +25,7 @@
 
       # Terminal Replacement Utilities
       bat
-      du-dust
+      dust
       duf
       eza
       fd

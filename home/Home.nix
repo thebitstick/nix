@@ -4,8 +4,10 @@
   programs = {
     git = {
       enable = true;
-      userName = "TheBitStick";
-      userEmail = "the@bitstick.rip";
+      settings.user = {
+        name = "TheBitStick";
+	email = "the@bitstick.rip";
+      };
     };
     neovim = {
       enable = true;
