@@ -29,6 +29,7 @@
       # macOS Background Apps (always-on)
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
+      "ollama-app"
 
       # macOS Background Apps
       "altserver"
@@ -40,6 +41,7 @@
       "cog-app"
       "discord"
       "grandperspective"
+      "helium-browser"
       "iina"
       "keyboardcleantool"
       "macpass"
@@ -65,7 +67,6 @@
       "crystalfetch"
       "ghostty"
       "hex-fiend"
-      "ollama-app"
       "playdate-mirror"
       "playdate-simulator"
       "zed"
