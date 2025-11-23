@@ -41,7 +41,6 @@
       "cog-app"
       "discord"
       "grandperspective"
-      "helium-browser"
       "iina"
       "keyboardcleantool"
       "macpass"
