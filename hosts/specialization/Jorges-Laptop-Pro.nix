@@ -1,5 +1,8 @@
 { config, pkgs, ... }:
 
+let
+  user = "thebitstick";
+in
 {
   networking = {
     hostName = "Jorges-Laptop-Pro";
@@ -7,8 +10,8 @@
     localHostName = "Jorges-Laptop-Pro";
   };
 
-  users.users.thebitstick = {
-    home = "/Users/thebitstick";
+  users.users.${user} = {
+    home = "/Users/${user}";
     shell = pkgs.nushell;
   };
 
@@ -23,8 +26,8 @@
     enable = true;
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
-    onActivation.cleanup = "uninstall";
-    caskArgs.appdir = "/Users/thebitstick/Applications/Homebrew Apps";
+    onActivation.cleanup = "zap";
+    caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
       "itsycal" # no built-in multi-month calendar in macOS
@@ -104,7 +107,7 @@
   };
 
   system = {
-    primaryUser = "thebitstick";
+    primaryUser = user;
     defaults = {
       NSGlobalDomain = {
         AppleICUForce24HourTime = true;
@@ -117,6 +120,8 @@
         AppleWindowTabbingMode = "always";
         InitialKeyRepeat = 25;
         KeyRepeat = 5;
+        NSNavPanelExpandedStateForSaveMode = true;
+        NSNavPanelExpandedStateForSaveMode2 = true;
         PMPrintingExpandedStateForPrint = true;
         PMPrintingExpandedStateForPrint2 = true;
       };
@@ -136,32 +141,64 @@
           "/System/Applications/Apps.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/Discord.app"
+          "/Users/${user}/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/Ghostty.app"
+          "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
           "/System/Applications/Messages.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/NetNewsWire.app"
+          "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/Zed.app"
-          "/Users/thebitstick/Applications/Homebrew Apps/Zen.app"
+          "/Users/${user}/Applications/Homebrew Apps/Zed.app"
+          "/Users/${user}/Applications/Homebrew Apps/Zen.app"
+        ];
+        persistent-others = [
+          {
+            folder = {
+              path = "/Applications";
+              arrangement = "name";
+              displayas = "stack";
+              showas = "grid";
+            };
+          }
+          {
+            folder = {
+              path = "/Users/${user}/Applications";
+              arrangement = "name";
+              displayas = "stack";
+              showas = "grid";
+            };
+          }
+          {
+            folder = {
+              path = "/Users/${user}/Downloads";
+              arrangement = "date-created";
+              displayas = "stack";
+              showas = "fan";
+            };
+          }
         ];
       };
 
       finder = {
         AppleShowAllExtensions = true;
         CreateDesktop = true;
-        FXPreferredViewStyle = "clmv";
+        FXPreferredViewStyle = "Nlsv";
         FXDefaultSearchScope = "SCcf";
         FXEnableExtensionChangeWarning = false;
         _FXShowPosixPathInTitle = false;
         QuitMenuItem = true;
         ShowPathbar = true;
         ShowStatusBar = true;
+      };
+
+      CustomSystemPreferences = {
+        "com.apple.DiskArbitration.diskarbitrationd" = {
+          DADisableEjectNotification = true;
+        };
       };
 
       menuExtraClock.IsAnalog = true;
@@ -184,7 +221,10 @@
     package = pkgs.nix;
   };
 
-  security.pam.services.sudo_local.touchIdAuth = true;
+  security.pam.services = {
+    sudo_local.touchIdAuth = true;
+    sudo_local.watchIdAuth = true;
+  };
 
   system.stateVersion = 5;
 }
