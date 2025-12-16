@@ -98,7 +98,6 @@ in
       #"Resident Evil Village" = 1640627334;
 
       # iPad Apps
-      #"CARROT" = 961390574;
       #"Wyze" = 1288415553;
 
       # Background Apps
