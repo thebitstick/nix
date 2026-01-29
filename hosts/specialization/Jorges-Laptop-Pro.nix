@@ -33,10 +33,11 @@ in
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "ollama-app"
+      # "soduto" # using the sannidhyaroy fork
 
       # macOS Background Apps
       "altserver"
-      # 'immersed' # not on Homebrew yet
+      # "immersed" # not on Homebrew yet
       "keka"
       "mountain-duck" # Finder FTP is only read-only
 
@@ -50,6 +51,7 @@ in
       "macpass"
       "musicbrainz-picard"
       "netnewswire"
+      "notesnook"
       "sensei"
       "transmission"
       "utm"
@@ -137,8 +139,7 @@ in
         show-recents = true;
         tilesize = 40;
         persistent-apps = [
-          "/System/Applications/iPhone Mirroring.app"
-          "/System/Applications/Apps.app"
+          # "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/Users/${user}/Applications/Homebrew Apps/Discord.app"
@@ -147,11 +148,12 @@ in
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
-          "/System/Applications/Messages.app"
+          # "/System/Applications/Messages.app"
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
-          "/System/Applications/Notes.app"
+          # "/System/Applications/Notes.app"
+          "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
-          "/System/Applications/Reminders.app"
+          # "/System/Applications/Reminders.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
