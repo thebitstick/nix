@@ -27,6 +27,10 @@ in
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
     onActivation.cleanup = "zap";
+    brews = [
+      "scrcpy"
+      "media-control"
+    ];
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # macOS Background Apps (always-on)
@@ -34,6 +38,7 @@ in
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "ollama-app"
       # "soduto" # using the sannidhyaroy fork
+      "syncthing-app"
 
       # macOS Background Apps
       "altserver"
@@ -43,6 +48,7 @@ in
 
       # macOS Graphical Apps
       "android-file-transfer"
+      "android-platform-tools"
       "cog-app"
       "discord"
       "grandperspective"
