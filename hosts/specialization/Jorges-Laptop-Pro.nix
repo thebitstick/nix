@@ -59,6 +59,7 @@ in
       "netnewswire"
       "notesnook"
       "sensei"
+      "signal"
       "transmission"
       "utm"
       "zen"
@@ -160,6 +161,7 @@ in
           "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
           # "/System/Applications/Reminders.app"
+	  "/Users/${user}/Applications/Homebrew Apps/Signal.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
