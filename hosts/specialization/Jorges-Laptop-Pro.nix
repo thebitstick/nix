@@ -145,7 +145,7 @@ in
           # "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
-          "/Users/${user}/Applications/Homebrew Apps/Discord.app"
+          #"/Users/${user}/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
           "/System/Applications/Home.app"
@@ -157,7 +157,7 @@ in
           "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
           # "/System/Applications/Reminders.app"
-	  "/Users/${user}/Applications/Homebrew Apps/Signal.app"
+          "/Users/${user}/Applications/Homebrew Apps/Signal.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
