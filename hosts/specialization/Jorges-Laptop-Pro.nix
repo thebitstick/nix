@@ -5,6 +5,12 @@ let
 in
 {
   networking = {
+    applicationFirewall = {
+      enable = true;
+      enableStealthMode = false;
+      allowSigned = true;
+      allowSignedApp = true;
+    };
     hostName = "Jorges-Laptop-Pro";
     computerName = "Jorge’s Laptop Pro";
     localHostName = "Jorges-Laptop-Pro";
@@ -229,7 +235,7 @@ in
 
   security.pam.services = {
     sudo_local.touchIdAuth = true;
-    sudo_local.watchIdAuth = true;
+    #sudo_local.watchIdAuth = true;
   };
 
   system.stateVersion = 5;
