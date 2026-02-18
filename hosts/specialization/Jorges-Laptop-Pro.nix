@@ -39,7 +39,7 @@ in
     ];
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
-      # macOS Background Apps (always-on)
+      # Background Services
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "ollama-app"
@@ -52,9 +52,7 @@ in
       "keka"
       "mountain-duck" # Finder FTP is only read-only
 
-      # macOS Graphical Apps
-      "android-file-transfer"
-      "android-platform-tools"
+      # macOS Apps
       "cog-app"
       "discord"
       "grandperspective"
@@ -70,7 +68,12 @@ in
       "utm"
       "zen"
 
-      # macOS Gaming Apps
+      # Googleslop
+      "android-file-transfer"
+      "android-platform-tools"
+      "google-drive"
+
+      # Gaming
       "crossover"
       "nvidia-geforce-now"
       "obs"
@@ -79,7 +82,7 @@ in
       "sidequest"
       "steam"
 
-      # macOS Dev Apps
+      # Dev
       "arduino-ide"
       "base"
       "crystalfetch"
