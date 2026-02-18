@@ -86,10 +86,9 @@ in
 
     masApps = {
       # Apple Apps
-      "iMovie" = 408981434;
-      "Keynote" = 409183694;
-      "Numbers" = 409203825;
-      "Pages" = 409201541;
+      "Keynote" = 361285480;
+      "Numbers" = 361304891;
+      "Pages" = 361309726;
       "Xcode" = 497799835;
 
       # Safari Extensions
@@ -106,9 +105,6 @@ in
       "Mini Metro" = 1047760200;
       #"Resident Evil 4" = 6462360082;
       #"Resident Evil Village" = 1640627334;
-
-      # iPad Apps
-      #"Wyze" = 1288415553;
 
       # Background Apps
       "Tailscale" = 1475387142;
