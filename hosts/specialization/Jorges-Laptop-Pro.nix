@@ -39,7 +39,7 @@ in
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "ollama-app"
-      # "soduto" # using sannidhyaroy/soduto
+      "bingokingo/bingokingo/soduto" # pulls from sannidhyaroy/soduto
       "syncthing-app"
 
       # macOS Background Apps
@@ -152,10 +152,8 @@ in
         show-recents = true;
         tilesize = 40;
         persistent-apps = [
-          # "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
-          #"/Users/${user}/Applications/Homebrew Apps/Discord.app"
 	  "/Users/${user}/Applications/Homebrew Apps/Element.app"
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
@@ -163,12 +161,9 @@ in
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
-          # "/System/Applications/Messages.app"
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
-          # "/System/Applications/Notes.app"
           "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
-          # "/System/Applications/Reminders.app"
           "/Users/${user}/Applications/Homebrew Apps/Signal.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
@@ -233,15 +228,12 @@ in
     };
   };
 
+  security.pam.services.sudo_local.touchIdAuth = true;
+
   nixpkgs.hostPlatform = "aarch64-darwin";
   nix = {
     gc.interval.Day = 7;
     package = pkgs.nix;
-  };
-
-  security.pam.services = {
-    sudo_local.touchIdAuth = true;
-    #sudo_local.watchIdAuth = true;
   };
 
   system.stateVersion = 5;
