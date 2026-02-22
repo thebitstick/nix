@@ -33,17 +33,13 @@ in
     onActivation.autoUpdate = true;
     onActivation.upgrade = true;
     onActivation.cleanup = "zap";
-    brews = [
-      "scrcpy"
-      "media-control"
-    ];
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # Background Services
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
       "ollama-app"
-      # "soduto" # using the sannidhyaroy fork
+      # "soduto" # using sannidhyaroy/soduto
       "syncthing-app"
 
       # macOS Background Apps
@@ -54,24 +50,29 @@ in
 
       # macOS Apps
       "cog-app"
-      "discord"
       "grandperspective"
       "iina"
       "keyboardcleantool"
+      "libreoffice"
       "macpass"
-      "musicbrainz-picard"
       "netnewswire"
-      "notesnook"
       "sensei"
-      "signal"
       "transmission"
       "utm"
       "zen"
+
+      # Internetslop
+      "element"
+      "musicbrainz-picard"
+      "notesnook"
+      "signal"
+      "zoom"
 
       # Googleslop
       "android-file-transfer"
       "android-platform-tools"
       "google-drive"
+      "helium-browser"
 
       # Gaming
       "crossover"
@@ -155,8 +156,10 @@ in
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           #"/Users/${user}/Applications/Homebrew Apps/Discord.app"
+	  "/Users/${user}/Applications/Homebrew Apps/Element.app"
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
+	  "/Users/${user}/Applications/Homebrew Apps/Helium.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
