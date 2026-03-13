@@ -156,7 +156,7 @@ in
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/System/Applications/FindMy.app"
-          "/Users/${user}/Applications/Homebrew Apps/Fluxer.app"
+          "/Users/${user}/Applications/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
           "/Users/${user}/Applications/Homebrew Apps/Helium.app"
           "/System/Applications/Home.app"
