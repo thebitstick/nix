@@ -63,6 +63,7 @@ in
 
       # Internetslop
       "element"
+      # "fluxer" # not yet available
       "musicbrainz-picard"
       "notesnook"
       "signal"
@@ -154,17 +155,16 @@ in
         persistent-apps = [
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
-	  "/Users/${user}/Applications/Homebrew Apps/Element.app"
           "/System/Applications/FindMy.app"
+          "/Users/${user}/Applications/Homebrew Apps/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
-	  "/Users/${user}/Applications/Homebrew Apps/Helium.app"
+          "/Users/${user}/Applications/Homebrew Apps/Helium.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
           "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
-          "/Users/${user}/Applications/Homebrew Apps/Signal.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
