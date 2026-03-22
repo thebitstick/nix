@@ -42,17 +42,18 @@
 
         # Home Manager Extensions
         "clipboard-indicator@tudmotu.com"
+        "gsconnect@andyholmes.github.io"
         "windowIsReady_Remover@nunofarruca@gmail.com"
       ];
       favorite-apps = [
         "org.gnome.Nautilus.desktop"
-        "firefox.desktop"
-        "discord.desktop"
+        "app.fluxer.Fluxer.desktop"
+        "com.mitchellh.ghostty.desktop"
+        "notesnook.desktop"
         "steam.desktop"
-        "org.gnome.Console.desktop"
-        "zed.desktop"
+        "dev.zed.Zed.desktop"
+        "app.zen_browser.zen.desktop"
       ];
-      last-selected-power-profile = "performance";
     };
 
     "org/gnome/desktop/interface" = {
@@ -87,21 +88,23 @@
   home.packages = with pkgs; [
     # GNOME Extensions
     gnomeExtensions.clipboard-indicator
+    gnomeExtensions.gsconnect
     gnomeExtensions.window-is-ready-remover
 
     # NixOS Graphical Apps
     baobab
     celluloid
-    # cura # broken python packages?
-    discord
-    firefox
-    openscad
+    keepassxc
+    notesnook
+    picard
+    signal-desktop
     transmission_4-gtk
 
     # NixOS Gaming Apps
     obs-studio
     prismlauncher
-    tetrio-desktop
+    sidequest
+    steam
   ];
 
   programs = {

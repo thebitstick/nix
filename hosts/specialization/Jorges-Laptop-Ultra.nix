@@ -11,6 +11,7 @@
       systemd-boot.enable = true;
       efi.canTouchEfiVariables = true;
     };
+    kernelPackages = pkgs.linuxPackages_latest;
     initrd.kernelModules = [ "amdgpu" ];
     plymouth.enable = true;
   };
@@ -50,19 +51,16 @@
 
   environment = {
     gnome.excludePackages = with pkgs; [
-      epiphany
-      gnome-maps
-      gnome-music
-      gnome-software
+      gnome-console
       gnome-tour
-      simple-scan
-      totem
+      showtime
       xterm
       yelp
     ];
 
     systemPackages = with pkgs; [
-      (pkgs.hiPrio uutils-coreutils-noprefix)
+      (lib.hiPrio uutils-coreutils-noprefix)
+      ghostty
     ];
 
     variables = {
@@ -76,10 +74,10 @@
     fontDir.enable = true;
     packages = with pkgs; [
       corefonts
-      vistafonts
+      vista-fonts
       noto-fonts
       noto-fonts-cjk-sans
-      noto-fonts-emoji
+      noto-fonts-color-emoji
       liberation_ttf
       fira-code
       fira-code-symbols
@@ -92,9 +90,15 @@
     ];
   };
 
-  programs.steam = {
-    enable = true;
-    localNetworkGameTransfers.openFirewall = true;
+  programs = {
+    kdeconnect = {
+      enable = true;
+      package = pkgs.gnomeExtensions.gsconnect;
+    };
+    steam = {
+      enable = true;
+      localNetworkGameTransfers.openFirewall = true;
+    };
   };
 
   hardware.graphics = {
@@ -103,6 +107,8 @@
   };
 
   services = {
+    displayManager.gdm.enable = true;
+    desktopManager.gnome.enable = true;
     flatpak.enable = true;
     fprintd.enable = false;
     fwupd.enable = true;
@@ -120,22 +126,9 @@
       alsa.support32Bit = true;
       pulse.enable = true;
     };
-    tailscale = {
-      enable = true;
-      useRoutingFeatures = "client";
-    };
-    xserver = {
-      enable = true;
-      autorun = true;
-      xkb.layout = "us";
-      displayManager.gdm = {
-        enable = true;
-      };
-      desktopManager.gnome = {
-        enable = true;
-      };
-      videoDrivers = [ "amdgpu" ];
-    };
+    printing.enable = true;
+    pulseaudio.enable = false;
+    tailscale.enable = true;
   };
 
   security.rtkit.enable = true;
