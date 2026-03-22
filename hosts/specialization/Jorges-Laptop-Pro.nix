@@ -158,7 +158,6 @@ in
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
-          "/Users/${user}/Applications/Homebrew Apps/Helium.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
