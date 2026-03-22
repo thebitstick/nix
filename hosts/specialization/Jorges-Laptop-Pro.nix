@@ -37,7 +37,7 @@ in
     casks = [
       # Background Services
       "itsycal" # no built-in multi-month calendar in macOS
-      "linearmouse" # decoupling scroll direction with mouse and trackpad still not possible in macOS 26
+      "linearmouse" # decoupling scroll direction with mouse and trackpad still not natively possible in macOS 26
       "ollama-app"
       "bingokingo/bingokingo/soduto" # pulls from sannidhyaroy/soduto
       "syncthing-app"
@@ -66,16 +66,16 @@ in
       # "fluxer" # not yet available
       "musicbrainz-picard"
       "notesnook"
+      "rustdesk"
       "signal"
       "zoom"
 
       # Googleslop
       "android-file-transfer"
-      "android-platform-tools"
       "google-drive"
       "helium-browser"
 
-      # Gaming
+      # Gamingslop
       "crossover"
       "nvidia-geforce-now"
       "obs"
@@ -84,7 +84,7 @@ in
       "sidequest"
       "steam"
 
-      # Dev
+      # Devslop
       "arduino-ide"
       "base"
       "crystalfetch"
@@ -96,7 +96,7 @@ in
     ];
 
     masApps = {
-      # Apple Apps
+      # Appleslop
       "Keynote" = 361285480;
       "Numbers" = 361304891;
       "Pages" = 361309726;
