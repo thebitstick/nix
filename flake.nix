@@ -14,7 +14,7 @@
     darwin.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:NixOS/nixos-hardware";
     nix-on-droid.url = "github:nix-community/nix-on-droid/release-24.05";
-    nix-on-droid.inputs.nixpkgs.follows = "nixos"; # not sure if this works
+    nix-on-droid.inputs.nixos.follows = "nixpkgs"; # not sure if this works
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
