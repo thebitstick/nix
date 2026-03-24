@@ -6,7 +6,7 @@
       enable = true;
       settings.user = {
         name = "TheBitStick";
-	email = "the@bitstick.rip";
+        email = "the@bitstick.rip";
       };
     };
     neovim = {
