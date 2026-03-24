@@ -17,7 +17,10 @@
   };
 
   networking = {
+    firewall.enable = true;
     hostName = "Jorges-Laptop-Ultra";
+    computerName = "Jorge’s Laptop Ultra";
+    localHostName = "Jorges-Laptop-Ultra";
     networkmanager.enable = true;
   };
 
@@ -49,6 +52,10 @@
       LC_TELEPHONE = "en_US.UTF-8";
       LC_TIME = "en_US.UTF-8";
     };
+    inputMethod = {
+      enabled = "ibus";
+      ibus.engines = with pkgs.ibus-engines; [ mozc ];
+    };
   };
 
   environment = {
@@ -62,6 +69,41 @@
 
     systemPackages = with pkgs; [
       (lib.hiPrio uutils-coreutils-noprefix)
+
+      # GNOME Extensions
+      gnomeExtensions.clipboard-indicator
+      gnomeExtensions.gsconnect
+      gnomeExtensions.nextdns-indicator
+      gnomeExtensions.window-is-ready-remover
+
+      # NixOS Apps
+      baobab
+      celluloid
+      davinci-resolve
+      hunspell
+      keepassxc
+      libreoffice
+      transmission_4-gtk
+      # zen (Flathub: app.zen_browser.zen)
+
+      # Internetslop
+      element-desktop
+      # fluxer (Flathub: app.fluxer.Fluxer)
+      picard # musicbrainz-picard
+      notesnook
+      rustdesk-flutter
+      signal-desktop
+      zoom-us
+
+      # Gamingslop
+      obs-studio
+      prismlauncher
+      sidequest
+      steam
+
+      # Devslop
+      arduino-ide
+      fish
       ghostty
     ];
 
@@ -117,6 +159,15 @@
     libinput = {
       enable = true;
       touchpad.tapping = true;
+    };
+    nextdns = {
+      enable = true;
+      arguments = [
+        "-config"
+        "73952a"
+        "-cache-size"
+        "10MB"
+      ];
     };
     openssh = {
       enable = true;

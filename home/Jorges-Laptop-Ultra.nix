@@ -43,10 +43,12 @@
         # Home Manager Extensions
         "clipboard-indicator@tudmotu.com"
         "gsconnect@andyholmes.github.io"
+        "nextdns@mysticnico.github.com"
         "windowIsReady_Remover@nunofarruca@gmail.com"
       ];
       favorite-apps = [
         "org.gnome.Nautilus.desktop"
+        "org.gnome.Calendar.desktop"
         "app.fluxer.Fluxer.desktop"
         "com.mitchellh.ghostty.desktop"
         "notesnook.desktop"
@@ -85,28 +87,6 @@
     };
   };
 
-  home.packages = with pkgs; [
-    # GNOME Extensions
-    gnomeExtensions.clipboard-indicator
-    gnomeExtensions.gsconnect
-    gnomeExtensions.window-is-ready-remover
-
-    # NixOS Graphical Apps
-    baobab
-    celluloid
-    keepassxc
-    notesnook
-    picard
-    signal-desktop
-    transmission_4-gtk
-
-    # NixOS Gaming Apps
-    obs-studio
-    prismlauncher
-    sidequest
-    steam
-  ];
-
   programs = {
     nushell = {
       extraConfig = ''
@@ -125,6 +105,7 @@
         }
       '';
       shellAliases = {
+        mkdir = "^mkdir";
         editv = "zeditor";
       };
     };
