@@ -6,7 +6,6 @@
 }:
 
 {
-  user.shell = pkgs.nushell;
   time.timeZone = "America/Chicago";
 
   environment = {
@@ -29,9 +28,15 @@
       xz
       zip
       unzip
+      git
+      gawk
+      ncurses
+
+      # Shell
+      nushell
 
       # uutils/coreutils
-      #(lib.hiPrio uutils-coreutils-noprefix)
+      uutils-coreutils-noprefix
 
       # Terminal Utilities
       android-tools
@@ -79,10 +84,10 @@
       LC_MEASUREMENT = "en_US.UTF-8";
       LC_MONETARY = "en_US.UTF-8";
       LC_NAME = "en_US.UTF-8";
-      LC_NUMERIC = "en_US.UTF-8";
+      #LC_NUMERIC = "en_US.UTF-8";
       LC_PAPER = "en_US.UTF-8";
       LC_TELEPHONE = "en_US.UTF-8";
-      LC_TIME = "en_US.UTF-8";
+      #LC_TIME = "en_US.UTF-8";
     };
   };
 
