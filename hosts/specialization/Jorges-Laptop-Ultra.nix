@@ -5,6 +5,9 @@
   ...
 }:
 
+let
+  user = "thebitstick";
+in
 {
   boot = {
     loader = {
@@ -22,7 +25,7 @@
     networkmanager.enable = true;
   };
 
-  users.users.thebitstick = {
+  users.users.${user} = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
@@ -89,6 +92,7 @@
       element-desktop
       # fluxer (Flathub: app.fluxer.Fluxer)
       picard # musicbrainz-picard
+      nextdns
       notesnook
       rustdesk-flutter
       signal-desktop
@@ -168,6 +172,12 @@
         "10MB"
       ];
     };
+    ollama = {
+      enable = true;
+      loadModels = [
+        "codellama"
+      ];
+    };
     openssh = {
       enable = true;
       settings.PasswordAuthentication = false;
@@ -180,6 +190,13 @@
     };
     printing.enable = true;
     pulseaudio.enable = false;
+    syncthing = {
+      enable = true;
+      group = "users";
+      user = "${user}";
+      dataDir = "/home/${user}/Documents";
+      configDir = "/home/${user}/.config/syncthing";
+    };
     tailscale.enable = true;
   };
 
