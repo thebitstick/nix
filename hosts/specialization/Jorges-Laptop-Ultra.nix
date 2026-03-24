@@ -165,7 +165,8 @@ in
     ollama = {
       enable = true;
       loadModels = [
-        "codellama"
+        "codellama:latest"
+        "gpt-oss:20b"
       ];
     };
     openssh = {

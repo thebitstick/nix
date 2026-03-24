@@ -118,6 +118,13 @@
         "nix"
       ];
       userSettings = {
+        agent = {
+          default_profile = "ask";
+          default_model = {
+            provider = "ollama";
+            model = "gpt-oss:20b";
+          };
+        };
         collaboration_panel = {
           button = false;
         };
