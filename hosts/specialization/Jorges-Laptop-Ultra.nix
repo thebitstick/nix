@@ -92,7 +92,6 @@ in
       element-desktop
       # fluxer (Flathub: app.fluxer.Fluxer)
       picard # musicbrainz-picard
-      nextdns
       notesnook
       rustdesk-flutter
       signal-desktop
@@ -162,15 +161,6 @@ in
     libinput = {
       enable = true;
       touchpad.tapping = true;
-    };
-    nextdns = {
-      enable = true;
-      arguments = [
-        "-config"
-        "73952a"
-        "-cache-size"
-        "10MB"
-      ];
     };
     ollama = {
       enable = true;
