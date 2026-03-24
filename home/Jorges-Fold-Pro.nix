@@ -16,7 +16,7 @@
         }
 
         def gc [url] {
-            cd ~/Git
+            cd ~/Developer/Git
             git clone $url
         }
       '';
@@ -24,5 +24,5 @@
   };
 
   programs.home-manager.enable = true;
-  home.stateVersion = "24.11";
+  home.stateVersion = "24.05";
 }

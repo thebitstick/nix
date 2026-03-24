@@ -34,6 +34,7 @@
 
       # Shell
       nushell
+      fish
 
       # uutils/coreutils
       uutils-coreutils-noprefix
@@ -89,6 +90,12 @@
       LC_TELEPHONE = "en_US.UTF-8";
       #LC_TIME = "en_US.UTF-8";
     };
+  };
+
+  home-manager = {
+    config = ./home/Jorges-Fold-Pro.nix;
+    backupFileExtension = "hm-bak";
+    useGlobalPkgs = true;
   };
 
   nix.extraOptions = ''
