@@ -51,7 +51,8 @@
       LC_TIME = "en_US.UTF-8";
     };
     inputMethod = {
-      enabled = "ibus";
+      enable = true;
+      type = "ibus";
       ibus.engines = with pkgs.ibus-engines; [ mozc ];
     };
   };
