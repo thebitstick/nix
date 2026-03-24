@@ -19,8 +19,6 @@
   networking = {
     firewall.enable = true;
     hostName = "Jorges-Laptop-Ultra";
-    computerName = "Jorge’s Laptop Ultra";
-    localHostName = "Jorges-Laptop-Ultra";
     networkmanager.enable = true;
   };
 
