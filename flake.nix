@@ -2,8 +2,7 @@
   description = ''
     Nix Configurations for
       Jorge's Laptop Pro (MacBook Pro 16" M4 Pro running macOS 26 Tahoe),
-      Jorge's Laptop Ultra (Framework 13 AMD running NixOS),
-      Jorge's Fold Pro (Google Pixel 10 Pro Fold running Nix-on-Droid) and
+      Jorge's Laptop Ultra (Framework 13 AMD running NixOS) and
       Pomu (my Linux RockPro64 server)
   '';
 
@@ -12,8 +11,6 @@
     darwin.url = "github:LnL7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
     nixos-hardware.url = "github:NixOS/nixos-hardware";
-    nix-on-droid.url = "github:nix-community/nix-on-droid/release-24.05";
-    nix-on-droid.inputs.nixpkgs.follows = "nixpkgs";
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
@@ -25,7 +22,6 @@
       nixpkgs,
       darwin,
       nixos-hardware,
-      nix-on-droid,
       home-manager,
       ...
     }:
@@ -76,12 +72,6 @@
             }
           ];
         };
-      };
-      nixOnDroidConfigurations.default = nix-on-droid.lib.nixOnDroidConfiguration {
-        pkgs = import nixpkgs { system = "aarch64-linux"; };
-        modules = [
-          ./hosts/specialization/Jorges-Fold-Pro.nix
-        ];
       };
     };
 }

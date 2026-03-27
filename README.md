@@ -3,8 +3,7 @@
 This repository contains configurations for:
 
 - my MacBook Pro 16" M4 Pro running macOS 26 Tahoe "Jorges-Laptop-Pro",
-- my Framework 13 AMD running NixOS "Jorges-Laptop-Ultra",
-- my Google Pixel 10 Pro Fold running Nix-on-Droid "Jorges-Fold-Pro" and
+- my Framework 13 AMD running NixOS "Jorges-Laptop-Ultra" and
 - my RockPro64 Linux server "Pomu"
 
 ## Jorges-Laptop-Pro (Nix-Darwin aarch64 standard)
@@ -22,10 +21,6 @@ Grab the [NixOS install ISO](https://nixos.org/download/) and follow the manual 
 Once you're acquainted with NixOS and Flakes, you're free to use this project as reference for configuring your system.
 
 Note that I compartmentalize each system into a separate "specialization" flake that gets merged with a base `configuration.nix` file that is common and shared with all my systems.
-
-## Jorges-Fold-Pro (Nix-on-Droid)
-
-- Instructions coming soon
 
 ## Pomu (NixOS aarch64 RockPro64)
 
