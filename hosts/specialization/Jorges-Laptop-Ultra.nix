@@ -191,7 +191,21 @@ in
     tailscale.enable = true;
   };
 
-  security.rtkit.enable = true;
+  security = {
+    rtkit.enable = true;
+    sudo-rs.enable = true;
+    sudo.enable = false;
+    doas = {
+      enable = true;
+      extraRules = [
+        {
+          users = [ user ];
+          keepEnv = true;
+          persist = true;
+        }
+      ];
+    };
+  };
   powerManagement.enable = true;
 
   nix.gc.dates = "weekly";
