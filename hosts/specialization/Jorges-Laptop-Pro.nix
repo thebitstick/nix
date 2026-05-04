@@ -207,6 +207,12 @@ in
         ShowStatusBar = true;
       };
 
+      CustomUserPreferences = {
+        NSGlobalDomain = {
+	  NSMenuEnableActionImages = 0;
+	};
+      };
+
       CustomSystemPreferences = {
         "com.apple.DiskArbitration.diskarbitrationd" = {
           DADisableEjectNotification = true;
