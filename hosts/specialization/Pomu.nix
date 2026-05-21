@@ -80,16 +80,6 @@
 	  enableACME = true;
 	  globalRedirect = "www.gofundme.com/f/support-betos-road-to-recovery";
 	};
-        "whitehouse.rip" = {
-          forceSSL = true;
-          enableACME = true;
-          root = "/var/www/whitehouse.rip";
-        };
-        "www.whitehouse.rip" = {
-          forceSSL = true;
-          enableACME = true;
-          globalRedirect = "whitehouse.rip";
-        };
       };
     };
     openssh = {
