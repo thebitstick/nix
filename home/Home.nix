@@ -11,6 +11,7 @@
     };
     neovim = {
       enable = true;
+      withPython3 = true;
       viAlias = true;
       vimAlias = true;
       defaultEditor = true;
