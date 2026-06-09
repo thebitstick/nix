@@ -30,9 +30,14 @@ in
 
   homebrew = {
     enable = true;
-    onActivation.autoUpdate = true;
-    onActivation.upgrade = true;
-    onActivation.cleanup = "zap";
+    onActivation = {
+      autoUpdate = true;
+      upgrade = true;
+      cleanup = "zap";
+      extraFlags = [
+        "--force-cleanup"
+      ];
+    };
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # Background Services
@@ -109,6 +114,8 @@ in
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
+      #"MeshCore" = 6742354151;
+      "Meshtastic" = 1586432531;
       "Pixen" = 525180431;
 
       # Games
@@ -205,12 +212,6 @@ in
         QuitMenuItem = true;
         ShowPathbar = true;
         ShowStatusBar = true;
-      };
-
-      CustomUserPreferences = {
-        NSGlobalDomain = {
-	  NSMenuEnableActionImages = 0;
-	};
       };
 
       CustomSystemPreferences = {
