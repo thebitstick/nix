@@ -236,7 +236,10 @@ in
     };
   };
 
-  security.pam.services.sudo_local.touchIdAuth = true;
+  security.pam.services = {
+    sudo_local.touchIdAuth = true;
+    sudo_local.watchIdAuth = true;
+  };
 
   nixpkgs.hostPlatform = "aarch64-darwin";
   nix = {
