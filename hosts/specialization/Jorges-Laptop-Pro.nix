@@ -160,6 +160,7 @@ in
         show-recents = true;
         tilesize = 40;
         persistent-apps = [
+          "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/System/Applications/FindMy.app"
