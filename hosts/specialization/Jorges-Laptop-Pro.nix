@@ -169,6 +169,7 @@ in
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
+          "/System/Applications/Messages.app"
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
           "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
           "/System/Applications/Photos.app"
