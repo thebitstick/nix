@@ -67,7 +67,6 @@ in
       "element"
       # "fluxer" # not yet available
       "musicbrainz-picard"
-      "notesnook"
       "rustdesk"
       "signal"
       "zoom"
