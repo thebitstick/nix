@@ -42,13 +42,9 @@ in
     casks = [
       # Background Services
       "itsycal" # no built-in multi-month calendar in macOS
-      "linearmouse" # decoupling scroll direction with mouse and trackpad still not natively possible in macOS 26
-      "ollama-app"
-      "bingokingo/bingokingo/soduto" # pulls from sannidhyaroy/soduto
-      "syncthing-app"
+      "linearmouse" # decoupling scroll direction with mouse and trackpad still not natively possible in macOS 27
 
       # macOS Background Apps
-      "altserver"
       # "immersed" # not on Homebrew yet
       "keka"
       "mountain-duck" # Finder FTP is only read-only
@@ -56,6 +52,7 @@ in
       # macOS Apps
       "cog-app"
       "grandperspective"
+      "helium-browser"
       "iina"
       "keyboardcleantool"
       "libreoffice"
@@ -76,9 +73,7 @@ in
       "zoom"
 
       # Googleslop
-      "android-file-transfer"
       "google-drive"
-      "helium-browser"
 
       # Gamingslop
       "crossover"
@@ -108,14 +103,16 @@ in
       "Xcode" = 497799835;
 
       # Safari Extensions
+      "10ten Japanese Reader" = 1573540634;
       "Bitwarden" = 1352778147;
+      "Consent-O-Matic" = 1606897889;
+      "Dark Reader for Safari" = 1438243180;
+      "SponsorBlock" = 1573461917;
       "uBlock Origin Lite" = 6745342698;
 
       # Third-Party Apps
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
-      #"MeshCore" = 6742354151;
-      "Meshtastic" = 1586432531;
       "Pixen" = 525180431;
 
       # Games
@@ -169,12 +166,13 @@ in
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
+          "/System/Applications/Maps.app"
           "/System/Applications/Messages.app"
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
-          "/Users/${user}/Applications/Homebrew Apps/Notesnook.app"
+          "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
+          "/Applications/Safari.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
-          "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
         persistent-others = [
           {
