@@ -72,9 +72,6 @@ in
       "signal"
       "zoom"
 
-      # Googleslop
-      "google-drive"
-
       # Gamingslop
       "crossover"
       "nvidia-geforce-now"
