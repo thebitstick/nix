@@ -60,6 +60,7 @@ in
       "netnewswire"
       "sensei"
       "transmission"
+      "ultimaker-cura"
       "utm"
       "zen"
 
@@ -167,8 +168,9 @@ in
           "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
-          "/Applications/Safari.app"
+          "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
+          "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];
         persistent-others = [
           {
