@@ -65,6 +65,7 @@ in
       "zen"
 
       # Internetslop
+      "discord"
       "element"
       # "fluxer" # not yet available
       "musicbrainz-picard"
