@@ -73,6 +73,9 @@ in
       "signal"
       "zoom"
 
+      # AI slop
+      "hermes-desktop"
+
       # Gamingslop
       "crossover"
       "nvidia-geforce-now"
