@@ -50,6 +50,7 @@ in
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Apps
+      "balenaetcher"
       "cog-app"
       "grandperspective"
       "helium-browser"
@@ -68,6 +69,7 @@ in
       "discord"
       "element"
       # "fluxer" # not yet available
+      "iloader"
       "musicbrainz-picard"
       "rustdesk"
       "signal"
@@ -91,6 +93,7 @@ in
       "crystalfetch"
       "ghostty"
       "hex-fiend"
+      "openmtp"
       "playdate-mirror"
       "playdate-simulator"
       "zed"
@@ -161,6 +164,7 @@ in
           "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
+	  "/Users/${user}/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
