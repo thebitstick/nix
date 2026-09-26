@@ -38,6 +38,18 @@ in
         "--force-cleanup"
       ];
     };
+
+    # Innioasis Updater dependencies
+    brews = [
+      "python@3.13"
+      "libusb"
+      "openssl"
+      "libffi"
+      "rust"
+      "cmake"
+      "pkg-config"
+    ];
+
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # Background Services
@@ -88,6 +100,7 @@ in
       "steam"
 
       # Devslop
+      "android-platform-tools"
       "arduino-ide"
       "base"
       "crystalfetch"
