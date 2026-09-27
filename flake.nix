@@ -1,7 +1,7 @@
 {
   description = ''
     Nix Configurations for
-      Jorge's Laptop Pro (MacBook Pro 16" M4 Pro running macOS 26 Tahoe),
+      Jorge's Laptop Pro (MacBook Pro 16" M4 Pro running macOS 27 Golden Gate),
       Jorge's Laptop Ultra (Framework 13 AMD running NixOS) and
       Pomu (my Linux RockPro64 server)
   '';

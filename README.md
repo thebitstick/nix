@@ -2,7 +2,7 @@
 
 This repository contains configurations for:
 
-- my MacBook Pro 16" M4 Pro running macOS 26 Tahoe "Jorges-Laptop-Pro",
+- my MacBook Pro 16" M4 Pro running macOS 27 Golden Gate "Jorges-Laptop-Pro",
 - my Framework 13 AMD running NixOS "Jorges-Laptop-Ultra" and
 - my RockPro64 Linux server "Pomu"
 
@@ -33,8 +33,6 @@ Once you're acquainted with NixOS and Flakes, you're free to use this project as
 Note that I compartmentalize each system into a separate "specialization" flake that gets merged with a base `configuration.nix` file that is common and shared with all my systems.
 
 ## Credits
-
-The Linux Unplugged podcast not shutting up about Nix and NixOS is the reason I finally gave it a real shot and none of this would have happened without their initial push. Thanks Chris.
 
 Nix Academy's [guide for macOS](https://nixcademy.com/2024/01/15/nix-on-macos/) was a great starting off point for Nix-Flakes and Nix-Darwin, and definitely helps with initial configuration on the Mac.
 

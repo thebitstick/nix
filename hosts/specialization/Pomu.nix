@@ -38,7 +38,6 @@
   environment = {
     systemPackages = with pkgs; [
       git
-      mcrcon
     ];
 
     variables = {
@@ -75,11 +74,11 @@
           enableACME = true;
           globalRedirect = "huicochea.moe";
         };
-	"alberto.huicochea.moe" = {
-	  forceSSL = true;
-	  enableACME = true;
-	  globalRedirect = "www.gofundme.com/f/support-betos-road-to-recovery";
-	};
+        "alberto.huicochea.moe" = {
+          forceSSL = true;
+          enableACME = true;
+          globalRedirect = "www.gofundme.com/f/support-betos-road-to-recovery";
+        };
       };
     };
     openssh = {
