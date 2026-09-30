@@ -27,7 +27,10 @@
 
   users.users.admin = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ];
+    extraGroups = [
+      "wheel"
+      "dialout"
+    ];
     description = "Administrator";
     shell = pkgs.nushell;
   };
@@ -73,11 +76,6 @@
           forceSSL = true;
           enableACME = true;
           globalRedirect = "huicochea.moe";
-        };
-        "alberto.huicochea.moe" = {
-          forceSSL = true;
-          enableACME = true;
-          globalRedirect = "www.gofundme.com/f/support-betos-road-to-recovery";
         };
       };
     };

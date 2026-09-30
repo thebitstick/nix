@@ -21,6 +21,7 @@
       neovim
       nmap
       scrcpy
+      tmux
       yt-dlp
 
       # Terminal Replacement Utilities
