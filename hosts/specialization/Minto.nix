@@ -34,7 +34,6 @@ in
       "2606:4700:4700::1111"
       "2606:4700:4700::1001"
     ];
-    networkmanager.enable = true;
   };
 
   users.users.${user} = {
@@ -88,7 +87,7 @@ in
       HandleLidSwitchDocked = "ignore";
     };
     nginx = {
-      enable = false;
+      enable = true;
       recommendedGzipSettings = true;
       recommendedOptimisation = true;
       recommendedProxySettings = true;
@@ -145,7 +144,7 @@ in
 
   powerManagement.enable = false;
   virtualisation.docker.enable = true;
-  # users.users.nginx.extraGroups = [ "acme" ];
+  users.users.nginx.extraGroups = [ "acme" ];
 
   nix.gc.dates = "weekly";
   system.stateVersion = "24.11";
