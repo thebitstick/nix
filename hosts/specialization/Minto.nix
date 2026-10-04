@@ -34,6 +34,7 @@ in
       "2606:4700:4700::1111"
       "2606:4700:4700::1001"
     ];
+    networkmanager.enable = true;
   };
 
   users.users.${user} = {
