@@ -4,7 +4,7 @@
 }:
 
 let
-  user = "admin";
+  user = "administrator";
 in
 {
   boot = {

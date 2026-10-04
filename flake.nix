@@ -53,7 +53,7 @@
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.thebitstick = import ./home/Minto.nix;
+              home-manager.users.administrator = import ./home/Minto.nix;
             }
           ];
         };
