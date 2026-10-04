@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ ... }:
 
 {
   programs = {
@@ -20,7 +20,7 @@
     nushell = {
       enable = true;
       shellAliases = {
-        cat = "bat --plain --paging=never";
+        cat = "bat";
         sedit = "sudo nvim";
         edit = "nvim";
         wget = "wcurl";

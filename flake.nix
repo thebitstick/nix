@@ -1,9 +1,8 @@
 {
   description = ''
     Nix Configurations for
-      Jorge's Laptop Pro (MacBook Pro 16" M4 Pro running macOS 27 Golden Gate),
-      Jorge's Laptop Ultra (Framework 13 AMD running NixOS) and
-      Pomu (my Linux RockPro64 server)
+      Jorge's Laptop Pro (MacBook Pro 16", M4 Pro, running macOS 27 Golden Gate) and
+      Minto (Framework 13 as a server, Ryzen, running NixOS)
   '';
 
   inputs = {
@@ -42,33 +41,19 @@
         };
       };
       nixosConfigurations = {
-        "Jorges-Laptop-Ultra" = nixpkgs.lib.nixosSystem {
+        "minto" = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           specialArgs = { inherit inputs; };
           modules = [
             ./configuration.nix
-            ./hosts/hardware-configuration/Jorges-Laptop-Ultra.nix
-            ./hosts/specialization/Jorges-Laptop-Ultra.nix
+            ./hosts/hardware-configuration/Minto.nix
+            ./hosts/specialization/Minto.nix
             nixos-hardware.nixosModules.framework-13-7040-amd
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.thebitstick = import ./home/Jorges-Laptop-Ultra.nix;
-            }
-          ];
-        };
-        "pomu" = nixpkgs.lib.nixosSystem {
-          system = "aarch64-linux";
-          modules = [
-            ./configuration.nix
-            ./hosts/hardware-configuration/Pomu.nix
-            ./hosts/specialization/Pomu.nix
-            home-manager.nixosModules.home-manager
-            {
-              home-manager.useGlobalPkgs = true;
-              home-manager.useUserPackages = true;
-              home-manager.users.admin = import ./home/Pomu.nix;
+              home-manager.users.thebitstick = import ./home/Minto.nix;
             }
           ];
         };

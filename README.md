@@ -2,9 +2,8 @@
 
 This repository contains configurations for:
 
-- my MacBook Pro 16" M4 Pro running macOS 27 Golden Gate "Jorges-Laptop-Pro",
-- my Framework 13 AMD running NixOS "Jorges-Laptop-Ultra" and
-- my RockPro64 Linux server "Pomu"
+- my MacBook Pro 16", M4 Pro, running macOS 27 Golden Gate "Jorges-Laptop-Pro" and
+- my Framework 13 as a server, Ryzen, running NixOS "Minto"
 
 ## Jorges-Laptop-Pro (Nix-Darwin aarch64 standard)
 
@@ -14,19 +13,9 @@ Once you're acquainted with Nix-Darwin and Flakes, you're free to use this proje
 
 Note that I compartmentalize each system into a separate "specialization" flake that gets merged with a base `configuration.nix` file that is common and shared with all my systems.
 
-## Jorges-Laptop-Ultra (NixOS x86_64 standard)
+## Minto (NixOS x86_64 standard)
 
 Grab the [NixOS install ISO](https://nixos.org/download/) and follow the manual to create a basic install. The graphical installer is great as a base and helps you understand what parts you need to define to make a working system.
-
-Once you're acquainted with NixOS and Flakes, you're free to use this project as reference for configuring your system.
-
-Note that I compartmentalize each system into a separate "specialization" flake that gets merged with a base `configuration.nix` file that is common and shared with all my systems.
-
-## Pomu (NixOS aarch64 RockPro64)
-
-Build an [aarch64 NixOS install image](https://github.com/Mic92/nixos-aarch64-images/) for the RockPro64 and follow the `README.md` to create a basic install.
-
-There's _probably_ a more correct way of getting it running, but I flashed the install image onto my eMMC and _technically configured the installer_ to be my perfect web server and Minecraft server. **It just works™**. This way I didn't have to deal with any **U-Boot garbage**.
 
 Once you're acquainted with NixOS and Flakes, you're free to use this project as reference for configuring your system.
 
