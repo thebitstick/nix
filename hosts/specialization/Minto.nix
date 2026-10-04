@@ -4,7 +4,7 @@
 }:
 
 let
-  user = "administrator";
+  user = "admin";
 in
 {
   boot = {
@@ -88,7 +88,7 @@ in
       HandleLidSwitchDocked = "ignore";
     };
     nginx = {
-      enable = true;
+      enable = false;
       recommendedGzipSettings = true;
       recommendedOptimisation = true;
       recommendedProxySettings = true;
@@ -145,7 +145,7 @@ in
 
   powerManagement.enable = false;
   virtualisation.docker.enable = true;
-  users.users.nginx.extraGroups = [ "acme" ];
+  # users.users.nginx.extraGroups = [ "acme" ];
 
   nix.gc.dates = "weekly";
   system.stateVersion = "24.11";
