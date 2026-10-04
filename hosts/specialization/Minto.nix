@@ -18,7 +18,7 @@ in
   };
 
   networking = {
-    hostName = "Minto";
+    hostName = "minto";
     firewall = {
       enable = true;
       allowedTCPPorts = [
