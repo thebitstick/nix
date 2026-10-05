@@ -41,7 +41,6 @@ in
     extraGroups = [
       "wheel"
       "dialout"
-      "docker"
     ];
     description = "Administrator";
     shell = pkgs.nushell;
@@ -187,7 +186,6 @@ in
   };
 
   powerManagement.enable = false;
-  virtualisation.docker.enable = true;
   users.users.nginx.extraGroups = [ "acme" ];
 
   nix.gc.dates = "weekly";
