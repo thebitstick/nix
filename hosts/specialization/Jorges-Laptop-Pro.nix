@@ -88,6 +88,7 @@ in
       "zoom"
 
       # AI slop
+      "claude"
       "hermes-desktop"
 
       # Gamingslop
