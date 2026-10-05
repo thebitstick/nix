@@ -123,6 +123,50 @@ in
       enable = true;
       useRoutingFeatures = "server";
     };
+    openhop-repeater = {
+      enable = true;
+      openFirewall = true; # dashboard on 8000; reachable on the LAN and Tailscale only (no port forwarding)
+
+      # ChiMesh's openHop guide: 910.525 MHz/62.5 kHz/SF7/CR5/22 dBm, 3-byte path hashes,
+      # 4 h advert interval, minimal loop detection, MQTT to LetsMesh + ChiMesh (ORD)
+      chicagolandMesh.enable = true;
+
+      repeater = {
+        name = "ORD-COOK-WOLF-RO-BIT";
+        latitude = 41.9288597;
+        longitude = -87.9040832;
+        ownerInfo = "Bluesky: @bitstick.rip|Twitter: @thebitstick|Website: https://bitstick.rip";
+        mode = "monitor";
+        identityKeyFile = "/var/lib/openhop-secrets/identity.key";
+        security = {
+          adminPasswordFile = "/var/lib/openhop-secrets/admin";
+          guestPasswordFile = "/var/lib/openhop-secrets/guest";
+          jwtSecretFile = "/var/lib/openhop-secrets/jwt";
+        };
+      };
+
+      radio = {
+        type = "modem_usb";
+        modemUsb = {
+          port = "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0";
+          baudrate = 921600;
+        };
+      };
+
+      companions."TheBitStick 🐧" = {
+        identityKeyFile = "/var/lib/openhop-secrets/companion-key";
+        bindAddress = "0.0.0.0";
+        port = 5050;
+        openFirewall = true;
+      };
+
+      settings = {
+        setup_completed = true;
+        web.site_name = "Leyden Mesh";
+        # Public key of the companion, links the observer to it on the analyzers
+        mqtt_brokers.owner = "E8AEBA33E9054C7E427A8AC2A9517857AD782379DB9B01A464589E8ECBDB4ACE";
+      };
+    };
   };
 
   security = {

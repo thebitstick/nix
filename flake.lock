@@ -87,12 +87,33 @@
         "type": "github"
       }
     },
+    "openhop-repeater": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1791218612,
+        "narHash": "sha256-AJNBP9bCDEr7KP3tc/pILLdPtgbS97cAo8LSTMvA+I4=",
+        "owner": "thebitstick",
+        "repo": "nixos-openhop-repeater",
+        "rev": "3e7be423af64afca1821b0342a499807ebee5e38",
+        "type": "github"
+      },
+      "original": {
+        "owner": "thebitstick",
+        "repo": "nixos-openhop-repeater",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "darwin": "darwin",
         "home-manager": "home-manager",
         "nixos-hardware": "nixos-hardware",
-        "nixpkgs": "nixpkgs_2"
+        "nixpkgs": "nixpkgs_2",
+        "openhop-repeater": "openhop-repeater"
       }
     }
   },

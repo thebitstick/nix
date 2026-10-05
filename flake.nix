@@ -13,6 +13,9 @@
 
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+
+    openhop-repeater.url = "github:thebitstick/nixos-openhop-repeater";
+    openhop-repeater.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs =
@@ -22,6 +25,7 @@
       darwin,
       nixos-hardware,
       home-manager,
+      openhop-repeater,
       ...
     }:
     {
@@ -49,6 +53,7 @@
             ./hosts/hardware-configuration/Minto.nix
             ./hosts/specialization/Minto.nix
             nixos-hardware.nixosModules.framework-13-7040-amd
+            openhop-repeater.nixosModules.default
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
