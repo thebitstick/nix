@@ -94,11 +94,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1791258705,
-        "narHash": "sha256-KyT8kAHcWiEefXeP2LLksjko/PSxgBk27kbHdqPzGmg=",
+        "lastModified": 1791261115,
+        "narHash": "sha256-qX0KzkfJDs4V6BrXpo9fw70vH6SKErX6TbrN62mxoag=",
         "owner": "thebitstick",
         "repo": "nixos-openhop-repeater",
-        "rev": "d2387f7baf9a7c0264632bb39c688253774ba734",
+        "rev": "3d82073f9c16419a4852bc3496baa8944f2e990b",
         "type": "github"
       },
       "original": {
