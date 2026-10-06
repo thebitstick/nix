@@ -177,8 +177,9 @@ in
         persistent-apps = [
           "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
+          "/Users/${user}/Applications/Homebrew Apps/Claude.app"
           "/Applications/ConsoleLink.app"
-	  "/Users/${user}/Applications/Homebrew Apps/Discord.app"
+          "/Users/${user}/Applications/Homebrew Apps/Discord.app"
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
@@ -191,6 +192,7 @@ in
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+          "/System/Applications/Reminders.app"
           "/Users/${user}/Applications/Homebrew Apps/Zed.app"
           "/Users/${user}/Applications/Homebrew Apps/Zen.app"
         ];

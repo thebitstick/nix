@@ -114,21 +114,9 @@ in
         };
       };
     };
-    openssh = {
-      enable = true;
-      settings.PasswordAuthentication = false;
-    };
-    tailscale = {
-      enable = true;
-      useRoutingFeatures = "server";
-    };
     openhop-repeater = {
       enable = true;
-      openFirewall = true; # dashboard on 8000; reachable on the LAN and Tailscale only (no port forwarding)
-
-      # ChiMesh's openHop guide: 910.525 MHz/62.5 kHz/SF7/CR5/22 dBm, 3-byte path hashes,
-      # 4 h advert interval, minimal loop detection, MQTT to LetsMesh + ChiMesh (ORD)
-      chicagolandMesh.enable = true;
+      openFirewall = true;
 
       repeater = {
         name = "ORD-COOK-WOLF-RO-BIT";
@@ -136,6 +124,7 @@ in
         longitude = -87.9040832;
         ownerInfo = "Bluesky: @bitstick.rip|Twitter: @thebitstick|Website: https://bitstick.rip";
         mode = "monitor";
+        sendAdvertIntervalHours = 4;
         identityKeyFile = "/var/lib/openhop-secrets/identity.key";
         security = {
           adminPasswordFile = "/var/lib/openhop-secrets/admin";
@@ -145,11 +134,37 @@ in
       };
 
       radio = {
+        preset = "usa-canada-recommended";
+        txPower = 22;
         type = "modem_usb";
         modemUsb = {
           port = "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0001-if00-port0";
           baudrate = 921600;
         };
+      };
+
+      mesh = {
+        pathHashMode = 2;
+        loopDetect = "minimal";
+      };
+
+      mqtt = {
+        iataCode = "ORD";
+        # your primary companion device, not the virtual companion below
+        owner = "E8AEBA33E9054C7E427A8AC2A9517857AD782379DB9B01A464589E8ECBDB4ACE";
+        brokers = [
+          { preset = "letsmesh"; }
+          {
+            name = "chimesh";
+            enabled = true;
+            host = "mqtt.chimesh.org";
+            port = 443;
+            transport = "websockets";
+            audience = "mqtt.chimesh.org";
+            use_jwt_auth = true;
+            tls.enabled = true;
+          }
+        ];
       };
 
       companions."TheBitStick 🐧" = {
@@ -162,9 +177,15 @@ in
       settings = {
         setup_completed = true;
         web.site_name = "Leyden Mesh";
-        # Public key of the companion, links the observer to it on the analyzers
-        mqtt_brokers.owner = "E8AEBA33E9054C7E427A8AC2A9517857AD782379DB9B01A464589E8ECBDB4ACE";
       };
+    };
+    openssh = {
+      enable = true;
+      settings.PasswordAuthentication = false;
+    };
+    tailscale = {
+      enable = true;
+      useRoutingFeatures = "server";
     };
   };
 
