@@ -258,13 +258,14 @@ in
 
   security.pam.services = {
     sudo_local.touchIdAuth = true;
-    sudo_local.watchIdAuth = true;
+    sudo_local.watchIdAuth = false;
   };
 
   nixpkgs.hostPlatform = "aarch64-darwin";
   nix = {
     gc.interval.Day = 7;
     package = pkgs.nix;
+    linux-builder.enable = true;
   };
 
   system.stateVersion = 5;
