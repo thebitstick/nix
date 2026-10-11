@@ -39,8 +39,8 @@ in
       ];
     };
 
-    # Innioasis Updater dependencies
     brews = [
+      # Innioasis Updater dependencies
       "python@3.13"
       "libusb"
       "openssl"
@@ -48,64 +48,61 @@ in
       "rust"
       "cmake"
       "pkg-config"
+
+      "mole" # SnazzyLabs recommendation
     ];
 
     caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
-      # Background Services
+      # macOS Background Services
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not natively possible in macOS 27
+      "rustdesk"
 
-      # macOS Background Apps
+      # macOS Utilities
+      "crystalfetch"
+      "grandperspective"
+      "iloader"
       # "immersed" # not on Homebrew yet
       "keka"
+      "keyboardcleantool"
+      "macpacker" # SnazzyLabs recommendation
+      "macusb" # SnazzyLabs recommendation
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Apps
-      "balenaetcher"
       "cog-app"
-      "grandperspective"
-      "helium-browser"
-      "iina"
-      "keyboardcleantool"
-      "libreoffice"
-      "macpass"
-      "netnewswire"
-      "sensei"
-      "transmission"
-      "ultimaker-cura"
-      "utm"
-      "zen"
-
-      # Internetslop
+      "crossover"
       "discord"
       "element"
       # "fluxer" # not yet available
-      "iloader"
+      "helium-browser"
+      "iina"
+      "libreoffice"
+      "macpass"
       "musicbrainz-picard"
-      "rustdesk"
-      "signal"
-      "zoom"
-
-      # AI slop
-      "claude"
-      "hermes-desktop"
-
-      # Gamingslop
-      "crossover"
+      "netnewswire"
       "nvidia-geforce-now"
       "obs"
       "prismlauncher"
       "roblox"
+      "sensei"
       "sidequest"
+      "signal"
       "steam"
+      "transmission"
+      "ultimaker-cura"
+      "utm"
+      "zen"
+      "zoom"
 
-      # Devslop
+      # macOS Development Tools
       "android-platform-tools"
       "arduino-ide"
       "base"
-      "crystalfetch"
+      "claude"
       "ghostty"
+      "hermes-desktop"
       "hex-fiend"
       "openmtp"
       "playdate-mirror"
@@ -114,7 +111,7 @@ in
     ];
 
     masApps = {
-      # Appleslop
+      # iWork
       "Keynote" = 361285480;
       "Numbers" = 361304891;
       "Pages" = 361309726;
@@ -128,7 +125,10 @@ in
       "SponsorBlock" = 1573461917;
       "uBlock Origin Lite" = 6745342698;
 
-      # Third-Party Apps
+      # Background Apps
+      "Tailscale" = 1475387142;
+
+      # Apps
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
       "Pixen" = 525180431;
@@ -138,9 +138,6 @@ in
       "Mini Metro" = 1047760200;
       #"Resident Evil 4" = 6462360082;
       #"Resident Evil Village" = 1640627334;
-
-      # Background Apps
-      "Tailscale" = 1475387142;
     };
   };
 
@@ -183,6 +180,7 @@ in
           "/System/Applications/FindMy.app"
           "/Users/${user}/Applications/Fluxer.app"
           "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
+          "/Users/${user}/Applications/Homebrew Apps/Hermes.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
@@ -265,7 +263,6 @@ in
   nix = {
     gc.interval.Day = 7;
     package = pkgs.nix;
-    linux-builder.enable = true;
   };
 
   system.stateVersion = 5;
