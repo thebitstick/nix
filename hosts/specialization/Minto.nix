@@ -85,6 +85,21 @@ in
       HandleLidSwitchExternalPower = "ignore";
       HandleLidSwitchDocked = "ignore";
     };
+    meshcore-bot = {
+      enable = true;
+      webviewer.enable = true;
+      settings = {
+        Connection = {
+          connection_type = "tcp";
+          hostname = "0.0.0.0";
+          tcp_port = "5060";
+        };
+        Bot = {
+          bot_name = "ORD-COOK-WOLF-BOT";
+          enabled = true;
+        };
+      };
+    };
     nginx = {
       enable = true;
       recommendedGzipSettings = true;
@@ -117,7 +132,6 @@ in
     openhop-repeater = {
       enable = true;
       openFirewall = true;
-
       repeater = {
         name = "ORD-COOK-WOLF-RO-BIT";
         latitude = 41.9288597;
@@ -127,12 +141,11 @@ in
         sendAdvertIntervalHours = 4;
         identityKeyFile = "/var/lib/openhop-secrets/identity.key";
         security = {
-          adminPasswordFile = "/var/lib/openhop-secrets/admin";
-          guestPasswordFile = "/var/lib/openhop-secrets/guest";
-          jwtSecretFile = "/var/lib/openhop-secrets/jwt";
+          adminPasswordFile = "/var/lib/openhop-secrets/adminPwd";
+          guestPasswordFile = "/var/lib/openhop-secrets/guestPwd";
+          jwtSecretFile = "/var/lib/openhop-secrets/jwtSecret";
         };
       };
-
       radio = {
         preset = "usa-canada-recommended";
         txPower = 22;
@@ -142,12 +155,10 @@ in
           baudrate = 921600;
         };
       };
-
       mesh = {
         pathHashMode = 2;
         loopDetect = "minimal";
       };
-
       mqtt = {
         iataCode = "ORD";
         # your primary companion device, not the virtual companion below
@@ -166,14 +177,18 @@ in
           }
         ];
       };
-
       companions."TheBitStick 🐧" = {
-        identityKeyFile = "/var/lib/openhop-secrets/companion-key";
+        identityKeyFile = "/var/lib/openhop-secrets/TheBitStick.key";
         bindAddress = "0.0.0.0";
         port = 5050;
         openFirewall = true;
       };
-
+      companions."ORD-COOK-WOLF-BOT" = {
+        identityKeyFile = "/var/lib/openhop-secrets/BOT.key";
+        bindAddress = "0.0.0.0";
+        port = 5060;
+        openFirewall = false;
+      };
       settings = {
         setup_completed = true;
         web.site_name = "Leyden Mesh";

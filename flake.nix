@@ -16,6 +16,8 @@
 
     openhop-repeater.url = "github:thebitstick/nixos-openhop-repeater";
     openhop-repeater.inputs.nixpkgs.follows = "nixpkgs";
+    meshcore-bot.url = "github:agessaman/meshcore-bot/";
+    meshcore-bot.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs =
@@ -26,6 +28,7 @@
       nixos-hardware,
       home-manager,
       openhop-repeater,
+      meshcore-bot,
       ...
     }:
     {
@@ -54,6 +57,7 @@
             ./hosts/specialization/Minto.nix
             nixos-hardware.nixosModules.framework-13-7040-amd
             openhop-repeater.nixosModules.default
+            meshcore-bot.nixosModules.default
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
