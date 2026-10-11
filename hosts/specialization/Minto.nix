@@ -86,7 +86,7 @@ in
       HandleLidSwitchDocked = "ignore";
     };
     meshcore-bot = {
-      enable = true;
+      enable = false;
       webviewer.enable = true;
       settings = {
         Connection = {
