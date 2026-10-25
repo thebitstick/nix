@@ -19,6 +19,7 @@
     };
     nushell = {
       enable = true;
+      loadSessionVariables = true;
       shellAliases = {
         cat = "bat";
         sedit = "sudo nvim";

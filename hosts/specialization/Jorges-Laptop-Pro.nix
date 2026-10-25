@@ -130,6 +130,7 @@ in
       # Apps
       "DaVinci Resolve" = 571213070;
       "ConsoleLink" = 6448843682;
+      "Mactracker" = 430255202;
       "Pixen" = 525180431;
 
       # Games
