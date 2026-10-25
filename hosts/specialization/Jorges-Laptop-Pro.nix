@@ -205,14 +205,6 @@ in
           }
           {
             folder = {
-              path = "/Users/${user}/Applications";
-              arrangement = "name";
-              displayas = "stack";
-              showas = "grid";
-            };
-          }
-          {
-            folder = {
               path = "/Users/${user}/Downloads";
               arrangement = "date-created";
               displayas = "stack";
