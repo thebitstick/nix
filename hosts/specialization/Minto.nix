@@ -164,17 +164,11 @@ in
         # your primary companion device, not the virtual companion below
         owner = "E8AEBA33E9054C7E427A8AC2A9517857AD782379DB9B01A464589E8ECBDB4ACE";
         brokers = [
+          { preset = "chimesh"; }
           { preset = "letsmesh"; }
-          {
-            name = "chimesh";
-            enabled = true;
-            host = "mqtt.chimesh.org";
-            port = 443;
-            transport = "websockets";
-            audience = "mqtt.chimesh.org";
-            use_jwt_auth = true;
-            tls.enabled = true;
-          }
+          { name = "Europe (LetsMesh v1)"; enabled = false; }
+          { preset = "meshmapper"; }
+          { preset = "waev"; }
         ];
       };
       companions."TheBitStick 🐧" = {
