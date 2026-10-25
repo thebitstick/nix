@@ -52,11 +52,11 @@ in
       "mole" # SnazzyLabs recommendation
     ];
 
-    caskArgs.appdir = "/Users/${user}/Applications/Homebrew Apps";
     casks = [
       # macOS Background Services
       "itsycal" # no built-in multi-month calendar in macOS
       "linearmouse" # decoupling scroll direction with mouse and trackpad still not natively possible in macOS 27
+      "nextdns-app"
       "rustdesk"
 
       # macOS Utilities
@@ -64,10 +64,9 @@ in
       "grandperspective"
       "iloader"
       # "immersed" # not on Homebrew yet
-      "keka"
       "keyboardcleantool"
-      "macpacker" # SnazzyLabs recommendation
-      "macusb" # SnazzyLabs recommendation
+      "macpacker"
+      "macusb"
       "mountain-duck" # Finder FTP is only read-only
 
       # macOS Apps
@@ -174,25 +173,25 @@ in
         persistent-apps = [
           "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
-          "/Users/${user}/Applications/Homebrew Apps/Claude.app"
+          "/Applications/Claude.app"
           "/Applications/ConsoleLink.app"
-          "/Users/${user}/Applications/Homebrew Apps/Discord.app"
+          "/Applications/Discord.app"
           "/System/Applications/FindMy.app"
-          "/Users/${user}/Applications/Fluxer.app"
-          "/Users/${user}/Applications/Homebrew Apps/Ghostty.app"
-          "/Users/${user}/Applications/Homebrew Apps/Hermes.app"
+          "/Applications/Fluxer.app"
+          "/Applications/Ghostty.app"
+          "/Applications/Hermes.app"
           "/System/Applications/Home.app"
           "/System/Applications/Journal.app"
           "/System/Applications/Mail.app"
           "/System/Applications/Maps.app"
           "/System/Applications/Messages.app"
-          "/Users/${user}/Applications/Homebrew Apps/NetNewsWire.app"
+          "/Applications/NetNewsWire.app"
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
           "/System/Applications/Reminders.app"
-          "/Users/${user}/Applications/Homebrew Apps/Zed.app"
-          "/Users/${user}/Applications/Homebrew Apps/Zen.app"
+          "/Applications/Zed.app"
+          "/Applications/Zen.app"
         ];
         persistent-others = [
           {
