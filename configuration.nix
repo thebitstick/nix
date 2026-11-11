@@ -14,6 +14,7 @@
       fastfetch
       ffmpeg
       file
+      gh
       imagemagick
       inetutils
       neovim

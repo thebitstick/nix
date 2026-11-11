@@ -49,6 +49,12 @@ in
       "cmake"
       "pkg-config"
 
+      # MiniDisc project dependencies
+      "keystone"
+      "libusb"
+      "cmake"
+      "ffmpeg"
+
       "mole" # SnazzyLabs recommendation
     ];
 
@@ -81,7 +87,6 @@ in
       "macpass"
       "musicbrainz-picard"
       "netnewswire"
-      "nvidia-geforce-now"
       "obs"
       "prismlauncher"
       "roblox"
@@ -103,6 +108,7 @@ in
       "ghostty"
       "hermes-desktop"
       "hex-fiend"
+      "ollama-app"
       "openmtp"
       "playdate-mirror"
       "playdate-simulator"
@@ -174,7 +180,6 @@ in
         persistent-apps = [
           "/System/Applications/iPhone Mirroring.app"
           "/System/Applications/Calendar.app"
-          "/Applications/Claude.app"
           "/Applications/ConsoleLink.app"
           "/Applications/Discord.app"
           "/System/Applications/FindMy.app"
@@ -189,7 +194,6 @@ in
           "/Applications/NetNewsWire.app"
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
-          "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
           "/System/Applications/Reminders.app"
           "/Applications/Zed.app"
           "/Applications/Zen.app"
