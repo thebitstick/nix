@@ -37,7 +37,7 @@
         }
 
         def gc [url] {
-            cd ~/Developer/Git
+            cd `~/Developer/Git Repos`
             git clone $url
         }
       '';

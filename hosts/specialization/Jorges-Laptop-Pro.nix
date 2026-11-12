@@ -104,7 +104,6 @@ in
       "android-platform-tools"
       "arduino-ide"
       "base"
-      "claude"
       "ghostty"
       "hermes-desktop"
       "hex-fiend"

@@ -25,6 +25,7 @@ in
         22
         80
         443
+	8080
       ];
     };
     nameservers = [
@@ -84,21 +85,6 @@ in
       HandleLidSwitch = "ignore";
       HandleLidSwitchExternalPower = "ignore";
       HandleLidSwitchDocked = "ignore";
-    };
-    meshcore-bot = {
-      enable = false;
-      webviewer.enable = true;
-      settings = {
-        Connection = {
-          connection_type = "tcp";
-          hostname = "0.0.0.0";
-          tcp_port = "5060";
-        };
-        Bot = {
-          bot_name = "ORD-COOK-WOLF-BOT";
-          enabled = true;
-        };
-      };
     };
     nginx = {
       enable = true;
