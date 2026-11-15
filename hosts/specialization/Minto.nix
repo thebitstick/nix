@@ -146,7 +146,6 @@ in
       };
       mqtt = {
         iataCode = "ORD";
-        # your primary companion device, not the virtual companion below
         owner = "E8AEBA33E9054C7E427A8AC2A9517857AD782379DB9B01A464589E8ECBDB4ACE";
         brokers = [
           { preset = "chimesh"; }
@@ -155,12 +154,6 @@ in
           { preset = "meshmapper"; }
           { preset = "waev"; }
         ];
-      };
-      companions."TheBitStick 🐧" = {
-        identityKeyFile = "/var/lib/openhop-secrets/TheBitStick.key";
-        bindAddress = "0.0.0.0";
-        port = 5050;
-        openFirewall = true;
       };
       companions."ORD-COOK-WOLF-BOT" = {
         identityKeyFile = "/var/lib/openhop-secrets/BOT.key";
