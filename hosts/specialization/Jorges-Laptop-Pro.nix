@@ -174,10 +174,11 @@ in
         minimize-to-application = false;
         mru-spaces = false;
         orientation = "bottom";
-        show-recents = true;
+        show-recents = false;
         tilesize = 40;
         persistent-apps = [
           "/System/Applications/iPhone Mirroring.app"
+          "/System/Applications/Apps.app"
           "/System/Applications/Calendar.app"
           "/Applications/ConsoleLink.app"
           "/Applications/Discord.app"
@@ -194,6 +195,7 @@ in
           "/System/Applications/Notes.app"
           "/System/Applications/Photos.app"
           "/System/Applications/Reminders.app"
+          "/Applications/Steam.app"
           "/Applications/Zed.app"
           "/Applications/Zen.app"
         ];
