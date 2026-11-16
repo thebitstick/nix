@@ -55,9 +55,9 @@
             ./configuration.nix
             ./hosts/hardware-configuration/Minto.nix
             ./hosts/specialization/Minto.nix
-            ./modules/nginx.nix
-            ./modules/openhop-repeater.nix
-            ./modules/meshcore-bot.nix
+            ./modules/Minto/nginx.nix
+            ./modules/Minto/openhop-repeater.nix
+            ./modules/Minto/meshcore-bot.nix
             nixos-hardware.nixosModules.framework-13-7040-amd
             openhop-repeater.nixosModules.default
             meshcore-bot.nixosModules.default
