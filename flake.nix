@@ -38,6 +38,7 @@
           modules = [
             ./configuration.nix
             ./hosts/specialization/Jorges-Laptop-Pro.nix
+            ./modules/Jorges-Laptop-Pro/Homebrew.nix
             home-manager.darwinModules.home-manager
             {
               home-manager.useGlobalPkgs = true;
