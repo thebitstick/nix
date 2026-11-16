@@ -105,15 +105,16 @@
         "treefmt-nix": "treefmt-nix"
       },
       "locked": {
-        "lastModified": 1794679619,
-        "narHash": "sha256-DLrCErcvxGdJGrqwWOvcS01MoX8dBxcn1S5PVg3HIuY=",
+        "lastModified": 1794797237,
+        "narHash": "sha256-mno1gjaIZNOq+S/9ytFg00Wu7TbLcVTGMQq1wHiCNFQ=",
         "owner": "agessaman",
         "repo": "meshcore-bot",
-        "rev": "52a5f1c9bda9d35c6385532da6f5187ca13f0b3b",
+        "rev": "7085963231bf062bdae40d72ec00acaee2a80e06",
         "type": "github"
       },
       "original": {
         "owner": "agessaman",
+        "ref": "dev",
         "repo": "meshcore-bot",
         "type": "github"
       }

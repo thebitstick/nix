@@ -16,7 +16,7 @@
 
     openhop-repeater.url = "github:thebitstick/nixos-openhop-repeater";
     openhop-repeater.inputs.nixpkgs.follows = "nixpkgs";
-    meshcore-bot.url = "github:agessaman/meshcore-bot/";
+    meshcore-bot.url = "github:agessaman/meshcore-bot/dev";
     meshcore-bot.inputs.nixpkgs.follows = "nixpkgs";
   };
 
@@ -55,6 +55,9 @@
             ./configuration.nix
             ./hosts/hardware-configuration/Minto.nix
             ./hosts/specialization/Minto.nix
+            ./modules/nginx.nix
+            ./modules/openhop-repeater.nix
+            ./modules/meshcore-bot.nix
             nixos-hardware.nixosModules.framework-13-7040-amd
             openhop-repeater.nixosModules.default
             meshcore-bot.nixosModules.default
